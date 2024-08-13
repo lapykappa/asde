@@ -1,0 +1,4 @@
+SimpleTags:
+  FillLevel:
+    DataType: Int
+    InitialValue: 20

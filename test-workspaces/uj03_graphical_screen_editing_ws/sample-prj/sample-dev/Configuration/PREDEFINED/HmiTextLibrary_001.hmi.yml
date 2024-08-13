@@ -1,0 +1,3205 @@
+#Version: 2.0
+
+TextLibraries:
+  AlarmTextLibrary:
+    ESOrigin: PREDEFINED # DFP generated - DO NOT REMOVE
+    Type: Text
+    Languages:
+    - en-US
+    - de-DE
+    - invariant
+    - fr-FR
+    DefaultLanguage: en-US
+    Entries:
+      Entry_6:
+        Text:
+        - 'Host1 (@S1%s@): We replace the original text'
+        - 'Host1 (@S1%s@): Der Originaltext wird ersetzt'
+        - ''
+        - 'Host1 (@S1%s@): Le texte original a été remplacé'
+      Entry_7:
+        Text:
+        - 'Host1 (@S1%s@): Activation failed and Rollback succeeded'
+        - 'Host1 (@S1%s@): Erfolgreicher Rollback nach fehlgeschlagener Activation'
+        - ''
+        - ''
+      Entry_8:
+        Text:
+        - 'Host1 (@S1%s@): Delta Rollback failed'
+        - 'Host1 (@S1%s@): Delta Rollback fehlgeschlagen'
+        - ''
+        - ''
+      Entry_9:
+        Text:
+        - 'Host1 (@S1%s@): A time leap of @2%1.3f@ seconds has been detected'
+        - 'Host1 (@S1%s@): Es wurde ein Zeitsprung von @2%1.3f@ Sekunden festgestellt'
+        - ''
+        - ''
+      Entry_10:
+        Text:
+        - 'Host1 (@1%s@): Redundancy lost'
+        - 'Host1 (@1%s@): Redundanz nicht mehr gegeben'
+        - ''
+        - ''
+      Entry_60:
+        Text:
+        - 'Host1 (@1%s@): Different Runtime Version detected on Redu Peer 2'
+        - 'Host1 (@1%s@): Der Redundanzpartner hat eine andere Runtime Version'
+        - ''
+        - ''
+      Entry_11:
+        Text:
+        - 'Host2 (@1%s@): Redundancy lost'
+        - 'Host2 (@1%s@): Redundanz nicht mehr gegeben'
+        - ''
+        - ''
+      Entry_61:
+        Text:
+        - 'Host2 (@1%s@): Different Runtime Version detected on Redu Peer 1'
+        - 'Host2 (@1%s@): Der Redundanzpartner hat eine andere Runtime Version'
+        - ''
+        - ''
+      Entry_16:
+        Text:
+        - 'Host1 (@2%s@): Service (@1%s@) not running.'
+        - 'Host1 (@2%s@): Service (@1%s@) läuft nicht.'
+        - ''
+        - ''
+      Entry_17:
+        Text:
+        - 'Host2 (@2%s@): Service (@1%s@) not running.'
+        - 'Host2 (@2%s@): Service (@1%s@) läuft nicht.'
+        - ''
+        - ''
+      Entry_18:
+        Text:
+        - 'Host1 (@1%s@): Storage Application is not initialized!'
+        - 'Host1 (@1%s@): Storage Applikation ist nicht initialisiert!'
+        - ''
+        - ''
+      Entry_19:
+        Text:
+        - 'Host1 (@3%s@): @1%s@ (@2%s@): lost connection to storage system.'
+        - 'Host1 (@3%s@): @1%s@ (@2%s@): hat keine Verbindung zum Storage System.'
+        - ''
+        - ''
+      Entry_20:
+        Text:
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): storage is full!'
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): Speicher ist voll!'
+        - ''
+        - ''
+      Entry_21:
+        Text:
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): no more storage system resources available!'
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): keine Storage System Ressourcen mehr verfügbar!'
+        - ''
+        - ''
+      Entry_1:
+        Text:
+        - 'Host2 (@3%s@): @1%s@ (@2%s@): lost connection to storage system.'
+        - 'Host2 (@3%s@): @1%s@ (@2%s@): hat keine Verbindung zum Storage System.'
+        - ''
+        - ''
+      Entry_2:
+        Text:
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): storage is full!'
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): Speicher ist voll!'
+        - ''
+        - ''
+      Entry_3:
+        Text:
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): no more storage system resources available!'
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): keine Storage System Ressourcen mehr verfügbar!'
+        - ''
+        - ''
+      Entry_22:
+        Text:
+        - 'Host1 (@2%s@): Manager (@1%s@) not connected'
+        - 'Host1 (@2%s@): Manager (@1%s@) nicht verbunden'
+        - ''
+        - ''
+      Entry_24:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: Write queue exceeded (first encountered in log @2%s@)! Data is lost!'
+        - 'Host1 (@3%s@): @1%s@: Schreibbuffer-Überlauf (zuerst aufgetreten in log @2%s@)! Daten gehen verloren!'
+        - ''
+        - ''
+      Entry_25:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Passive storage system lost connection to active storage system'
+        - 'Host1 (@2%s@): @1%s@: Das passive Storage System hat seine Verbindung zum aktiven Storage System verloren'
+        - ''
+        - ''
+      Entry_26:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Synchronizing...'
+        - 'Host1 (@2%s@): @1%s@: Das Storage System wird abgeglichen...'
+        - ''
+        - ''
+      Entry_27:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Failover failed!'
+        - 'Host1 (@2%s@): @1%s@: Failover Fehler!'
+        - ''
+        - ''
+      Entry_28:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: Write queue exceeded (first encountered in log @2%s@)! Data is lost! Host1 and Host2 are probably out of sync. When the overload issue is solved, synchronization will be carried out automatically.'
+        - 'Host1 (@3%s@): @1%s@: Schreibbuffer-Überlauf (zuerst aufgetreten in log @2%s@)! Daten gehen verloren! Host1 und Host2 sind wahrscheinlich nicht synchronisiert. Wenn das Überlaufproblem gelöst ist, wird die Synchronisierung automatisch durchgeführt.'
+        - ''
+        - ''
+      Entry_4:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: Write queue exceeded (first encountered in log @2%s@)! Data is lost! Host1 and Host2 are probably out of sync. When the overload issue is solved, synchronization will be carried out automatically.'
+        - 'Host2 (@3%s@): @1%s@: Schreibbuffer-Überlauf (zuerst aufgetreten in log @2%s@)! Daten gehen verloren! Host1 und Host2 sind wahrscheinlich nicht synchronisiert. Wenn das Überlaufproblem gelöst ist, wird die Synchronisierung automatisch durchgeführt.'
+        - ''
+        - ''
+      Entry_5:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Passive storage system lost connection to active storage system'
+        - 'Host2 (@2%s@): @1%s@: Das passive Storage System hat seine Verbindung zum aktiven Storage System verloren'
+        - ''
+        - ''
+      Entry_13:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Synchronizing...'
+        - 'Host2 (@2%s@): @1%s@: Das Storage System wird abgeglichen...'
+        - ''
+        - ''
+      Entry_14:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Failover failed!'
+        - 'Host2 (@2%s@): @1%s@: Failover Fehler!'
+        - ''
+        - ''
+      Entry_30:
+        Text:
+        - 'Host1 (@2%s@): Driver (@1%s@) overloaded alarm'
+        - 'Host1 (@2%s@): Alarm Treiber (@1%s@) überlastet'
+        - ''
+        - ''
+      Entry_31:
+        Text:
+        - 'Host1 (@2%s@): Driver (@1%s@) overloaded warning'
+        - 'Host1 (@2%s@): Warnung Treiber (@1%s@) überlastet'
+        - ''
+        - ''
+      Entry_12:
+        Text:
+        - 'Host2 (@2%s@): Driver (@1%s@) overloaded alarm'
+        - 'Host2 (@2%s@): Alarm Treiber (@1%s@) überlastet'
+        - ''
+        - ''
+      Entry_38:
+        Text:
+        - 'Host2 (@2%s@): Driver (@1%s@) overloaded warning'
+        - 'Host2 (@2%s@): Warnung Treiber (@1%s@) überlastet'
+        - ''
+        - ''
+      Entry_34:
+        Text:
+        - 'Host2 (@2%s@): Manager (@1%s@) not connected'
+        - 'Host2 (@2%s@): Manager (@1%s@) nicht verbunden'
+        - ''
+        - ''
+      Entry_45:
+        Text:
+        - 'Host1 (@2%s@): Manager (@1%s@) not connected'
+        - 'Host1 (@2%s@): Manager (@1%s@) nicht verbunden'
+        - ''
+        - ''
+      Entry_46:
+        Text:
+        - 'Host1 (@2%s@): Manager (@1%s@) not connected'
+        - 'Host1 (@2%s@): Manager (@1%s@) nicht verbunden'
+        - ''
+        - ''
+      Entry_47:
+        Text:
+        - 'Host2 (@2%s@): Manager (@1%s@) not connected'
+        - 'Host2 (@2%s@): Manager (@1%s@) nicht verbunden'
+        - ''
+        - ''
+      Entry_48:
+        Text:
+        - 'Host2 (@2%s@): Manager (@1%s@) not connected'
+        - 'Host2 (@2%s@): Manager (@1%s@) nicht verbunden'
+        - ''
+        - ''
+      Entry_53:
+        Text:
+        - 'Host1 (@2%s@): Event(Host1)->Event(Host2) connection not established'
+        - 'Host1 (@2%s@): Event(Host1)->Event(Host2) Verbindung nicht hergestellt'
+        - ''
+        - ''
+      Entry_54:
+        Text:
+        - 'Host2 (@2%s@): Event(Host2)->Event(Host1) connection not established'
+        - 'Host2 (@2%s@): Event(Host2)->Event(Host1) Verbindung nicht hergestellt'
+        - ''
+        - ''
+      Entry_94:
+        Text:
+        - 'Host1 (@1%s@): System starting'
+        - 'Host1 (@1%s@): System startet'
+        - ''
+        - ''
+      Entry_95:
+        Text:
+        - 'Host1 (@1%s@): System shutting down'
+        - 'Host1 (@1%s@): System wird beendet'
+        - ''
+        - ''
+      Entry_96:
+        Text:
+        - 'Host2 (@1%s@): System starting'
+        - 'Host2 (@1%s@): System startet'
+        - ''
+        - ''
+      Entry_97:
+        Text:
+        - 'Host2 (@1%s@): System shutting down'
+        - 'Host2 (@1%s@): System wird beendet'
+        - ''
+        - ''
+      Entry_99:
+        Text:
+        - 'Host1 (@1%s@): System Memory low'
+        - 'Host1 (@1%s@): System Arbeitsspeicher niedrig'
+        - ''
+        - ''
+      Entry_100:
+        Text:
+        - 'Host1 (@1%s@): System Memory very low'
+        - 'Host1 (@1%s@): System Arbeitsspeicher sehr niedrig'
+        - ''
+        - ''
+      Entry_101:
+        Text:
+        - 'Host2 (@1%s@): System Memory low'
+        - 'Host2 (@1%s@): System Arbeitsspeicher niedrig'
+        - ''
+        - ''
+      Entry_102:
+        Text:
+        - 'Host2 (@1%s@): System Memory very low'
+        - 'Host2 (@1%s@): System Arbeitsspeicher sehr niedrig'
+        - ''
+        - ''
+      Entry_103:
+        Text:
+        - 'Host1 (@1%s@): Disk Space low'
+        - 'Host1 (@1%s@): System Speicherplatz niedrig'
+        - ''
+        - ''
+      Entry_104:
+        Text:
+        - 'Host1 (@1%s@): Disk Space very low'
+        - 'Host1 (@1%s@): System Speicherplatz sehr niedrig'
+        - ''
+        - ''
+      Entry_105:
+        Text:
+        - 'Host2 (@1%s@): Disk Space low'
+        - 'Host2 (@1%s@): System Speicherplatz niedrig'
+        - ''
+        - ''
+      Entry_106:
+        Text:
+        - 'Host2 (@1%s@): Disk Space very low'
+        - 'Host2 (@1%s@): System Speicherplatz sehr niedrig'
+        - ''
+        - ''
+      Entry_109:
+        Text:
+        - 'Host1 (@3%s@): @1%s@ (@2%s@) lost connection to storage system backend (Archive)'
+        - 'Host1 (@3%s@): @1%s@ (@2%s@) keine Verbindung zum System Backend (Archiv)'
+        - ''
+        - ''
+      Entry_15:
+        Text:
+        - 'Host2 (@3%s@): @1%s@ (@2%s@) lost connection to storage system backend (Archive)'
+        - 'Host2 (@3%s@): @1%s@ (@2%s@) keine Verbindung zum System Backend (Archiv)'
+        - ''
+        - ''
+      Entry_110:
+        Text:
+        - 'Host1 (@S1%s@): User-Name: @S2%s@, Tag-Name: @2%s@, Old Value: @3%v@, New Value: @4%v@, Unit: @5%s@, Reason: @6%s@'
+        - 'Host1 (@S1%s@): Benutzer-Name: @S2%s@, Tag-Name: @2%s@, Alter Wert: @3%v@, Neuer Wert: @4%v@, Einheit: @5%s@, Ursache: @6%s@'
+        - ''
+        - ''
+      Entry_111:
+        Text:
+        - 'Host1 (@S1%s@): Connection-ID: @S7%u@, Connection-State: @2%u@'
+        - 'Host1 (@S1%s@): Verbindungs-ID: @S7%u@, Verbindungs-Status: @2%u@'
+        - ''
+        - ''
+      Entry_112:
+        Text:
+        - ''
+        - ''
+        - 'Host1 (@S1%s@): @5%t#4T@'
+        - ''
+      Entry_113:
+        Text:
+        - HmiCycle - @6%s@ does not exist
+        - HmiCycle - @6%s@ existiert nicht
+        - ''
+        - ''
+      Entry_114:
+        Text:
+        - HmiAlarm - @6%s@ already exists
+        - HmiAlarm - @6%s@ existiert bereits
+        - ''
+        - ''
+      Entry_115:
+        Text:
+        - HmiTag - Address @6%s@ was rejected
+        - HmiTag - Adresse @6%s@ wurde abgelehnt
+        - ''
+        - ''
+      Entry_116:
+        Text:
+        - HmiConnection - @6%s@ does not exist
+        - HmiConnection - @6%s@ existiert nicht
+        - ''
+        - ''
+      Entry_117:
+        Text:
+        - HmiTag - Acquisition mode @6%s@ is not supported by CHROM
+        - HmiTag - Acquisition mode @6%s@ wird von CHROM nicht unterstützt
+        - ''
+        - ''
+      Entry_125:
+        Text:
+        - HmiCycle - @6%s@ deleted, but associated HmiTags exist
+        - HmiCycle - @6%s@ gelöscht, aber referenzierte HmiTags existieren
+        - ''
+        - ''
+      Entry_144:
+        Text:
+        - HmiConnection - @6%s@ deleted, but associated HmiTags exist
+        - HmiConnection - @6%s@ gelöscht, aber referenzierte HmiTags existieren
+        - ''
+        - ''
+      Entry_155:
+        Text:
+        - HmiTag - SelectorTag @6%s@ was rejected
+        - HmiTag - SelectorTag @6%s@ wurde abgelehnt
+        - ''
+        - ''
+      Entry_156:
+        Text:
+        - HmiTag - SelectorTag @6%s@ has an invalid value
+        - HmiTag - SelectorTag @6%s@ hat einen ungültigen Wert
+        - ''
+        - ''
+      Entry_118:
+        Text:
+        - Connection could not be established - @6%s@
+        - Verbindung konnte nicht hergestellt werden - @6%s@
+        - ''
+        - ''
+      Entry_119:
+        Text:
+        - Connection could not be established - @6%s@
+        - Verbindung konnte nicht hergestellt werden - @6%s@
+        - ''
+        - ''
+      Entry_120:
+        Text:
+        - Connection lost - @6%s@
+        - Verbindung verloren - @6%s@
+        - ''
+        - ''
+      Entry_121:
+        Text:
+        - Connection lost on HMI side - @6%s@
+        - Verbindung auf HMI Seite verloren - @6%s@
+        - ''
+        - ''
+      Entry_122:
+        Text:
+        - Connection lost on PLC side - @6%s@
+        - Verbindung auf PLC Seite verloren - @6%s@
+        - ''
+        - ''
+      Entry_123:
+        Text:
+        - Connection could not be established - Open timed out - @6%s@
+        - Verbindung konnte nicht hergestellt werden - Zeitüberschreitung beim öffnen der Verbindung - @6%s@
+        - ''
+        - ''
+      Entry_124:
+        Text:
+        - Connection Disturbed - @6%s@
+        - Verbindung unterbrochen - @6%s@
+        - ''
+        - ''
+      Entry_127:
+        Text:
+        - Connection closed on HMI side - HmiConnection @5%s@ is changed
+        - Verbindung auf HMI Seite verloren - HmiConnection @5%s@ wurde geändert
+        - ''
+        - ''
+      Entry_128:
+        Text:
+        - Connection closed on HMI side - Driver attribute is changed - Connection @5%s@
+        - Verbindung auf HMI Seite verloren - Treiberattribut wurde geändert - Verbindung @5%s@
+        - ''
+        - ''
+      Entry_126:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: Transaction Buffer and Write queue exceeded at passive side (first encountered in log @2%s@)! Potential data loss! Avoid manual failover as long as this alarm is active!'
+        - 'Host1 (@3%s@): @1%s@: Transaktionsbuffer- und Schreibbuffer-Überlauf auf passiver Seite (zuerst aufgetreten in log @2%s@)! Potentieller Datenverlust! Vermeiden Sie manuelle Redundanz-Umschaltung solange dieser Alarm aktiv ist!'
+        - ''
+        - ''
+      Entry_32:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: Transaction Buffer and Write queue exceeded at passive side (first encountered in log @2%s@)! Potential data loss! Avoid manual failover as long as this alarm is active!'
+        - 'Host2 (@3%s@): @1%s@: Transaktionsbuffer- und Schreibbuffer-Überlauf auf passiver Seite (zuerst aufgetreten in log @2%s@)! Potentieller Datenverlust! Vermeiden Sie manuelle Redundanz-Umschaltung solange dieser Alarm aktiv ist!'
+        - ''
+        - ''
+      Entry_129:
+        Text:
+        - 'Host1 (@2%s@): Partner is not fully operational'
+        - 'Host1 (@2%s@): Partner ist nicht voll betriebsbereit'
+        - ''
+        - ''
+      Entry_145:
+        Text:
+        - 'Host2 (@2%s@): Partner is not fully operational'
+        - 'Host2 (@2%s@): Partner ist nicht voll betriebsbereit'
+        - ''
+        - ''
+      Entry_171:
+        Text:
+        - 'Host1 (@2%s@): Partner requires TimeCorrection'
+        - 'Host1 (@2%s@): Partner benötigt Zeitkorrektur'
+        - ''
+        - ''
+      Entry_172:
+        Text:
+        - 'Host2 (@2%s@): Partner requires TimeCorrection'
+        - 'Host2 (@2%s@): Partner benötigt Zeitkorrektur'
+        - ''
+        - ''
+      Entry_130:
+        Text:
+        - ''
+        - ''
+        - 'Host1 (@5%s@): @3%t#2T@'
+        - ''
+      Entry_146:
+        Text:
+        - ''
+        - ''
+        - 'Host2 (@5%s@): @3%t#2T@'
+        - ''
+      Entry_147:
+        Text:
+        - ''
+        - ''
+        - 'Host1 (@5%s@): @3%t#2T@'
+        - ''
+      Entry_148:
+        Text:
+        - ''
+        - ''
+        - 'Host2 (@5%s@): @3%t#2T@'
+        - ''
+      Entry_177:
+        Text:
+        - ''
+        - ''
+        - 'Host1 (@5%s@): @3%t#2T@'
+        - ''
+      Entry_178:
+        Text:
+        - ''
+        - ''
+        - 'Host2 (@5%s@): @3%t#2T@'
+        - ''
+      Entry_173:
+        Text:
+        - ''
+        - ''
+        - 'Host1 (@2%s@): Partner requires TimeCorrection'
+        - ''
+      Entry_174:
+        Text:
+        - ''
+        - ''
+        - 'Host2 (@2%s@): Partner requires TimeCorrection'
+        - ''
+      Entry_131:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) lost connection to longterm storage system'
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) Verbindung zum Langzeit Archiv System verloren'
+        - ''
+        - ''
+      Entry_132:
+        Text:
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): disk is full (longterm storage system)!'
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): Festplatte ist voll (Langzeit Archiv)!'
+        - ''
+        - ''
+      Entry_133:
+        Text:
+        - 'Host1 (@3%s@): @1%s@ (@2%s@): no more longterm storage system resources available!'
+        - 'Host1 (@3%s@): @1%s@ (@2%s@): keine Langzeit Archiv Storage System Ressourcen mehr verfügbar!'
+        - ''
+        - ''
+      Entry_134:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Passive longterm storage system out of sync with active longterm storage system'
+        - 'Host1 (@2%s@): @1%s@: Das passive und das aktive Langzeit Archiv System sind nicht mehr synchronisiert'
+        - ''
+        - ''
+      Entry_135:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Longterm storage system synchronizing...'
+        - 'Host1 (@2%s@): @1%s@: Das Langzeit Archiv Storage System wird abgeglichen...'
+        - ''
+        - ''
+      Entry_136:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Longterm storage system failover failed!'
+        - 'Host1 (@2%s@): @1%s@: Failover Fehler beim Langzeit Archiv!'
+        - ''
+        - ''
+      Entry_33:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) lost connection to longterm storage system'
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) Verbindung zum Langzeit Archiv System verloren'
+        - ''
+        - ''
+      Entry_35:
+        Text:
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): disk is full (longterm storage system)!'
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): Festplatte ist voll (Langzeit Archiv)!'
+        - ''
+        - ''
+      Entry_36:
+        Text:
+        - 'Host2 (@3%s@): @1%s@ (@2%s@): no more longterm storage system resources available!'
+        - 'Host2 (@3%s@): @1%s@ (@2%s@): keine Langzeit Archiv Storage System Ressourcen mehr verfügbar!'
+        - ''
+        - ''
+      Entry_39:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Passive longterm storage system out of sync with active longterm storage system'
+        - 'Host2 (@2%s@): @1%s@: Das passive und das aktive Langzeit Archiv System sind nicht mehr synchronisiert'
+        - ''
+        - ''
+      Entry_40:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Longterm storage system synchronizing...'
+        - 'Host2 (@2%s@): @1%s@: Das Langzeit Archiv Storage System wird abgeglichen...'
+        - ''
+        - ''
+      Entry_41:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Longterm storage system failover failed!'
+        - 'Host2 (@2%s@): @1%s@: Failover Fehler beim Langzeit Archiv!'
+        - ''
+        - ''
+      Entry_141:
+        Text:
+        - 'Host1 (@S1%s@): RDF Merge failed: @2%s@'
+        - 'Host1 (@S1%s@): RDF Merge fehlgeschlagen: @2%s@'
+        - ''
+        - ''
+      Entry_142:
+        Text:
+        - 'Host1 (@S1%s@): Commit of Delta Activation failed because of corrupted file system.'
+        - 'Host1 (@S1%s@): Delta Aktivierung fehlgeschlagen wegen beschädigtem Dateisystem.'
+        - ''
+        - ''
+      Entry_143:
+        Text:
+        - 'Host1 (@S1%s@): Persisting of configuration changes failed.'
+        - 'Host1 (@S1%s@): Speicherung der Konfigurationsänderungen fehlgeschlagen.'
+        - ''
+        - ''
+      Entry_149:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Synchronizing historical data between hosts!'
+        - 'Host1 (@2%s@): @1%s@: Synchronisation zwischen den beiden redundanten Servern wird durchgeführt.'
+        - ''
+        - ''
+      Entry_150:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Background synchronization failure! See traces for specific information!'
+        - 'Host1 (@2%s@): @1%s@: Fehler während der Hintergrund-Synchronisation! Bitte die Traces auf weiterführende Information prüfen!'
+        - ''
+        - ''
+      Entry_151:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Synchronizing historical data between hosts!'
+        - 'Host2 (@2%s@): @1%s@: Synchronisation zwischen den beiden redundanten Servern wird durchgeführt.'
+        - ''
+        - ''
+      Entry_152:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Background synchronization failure! See traces for specific information!'
+        - 'Host2 (@2%s@): @1%s@: Fehler während der Hintergrund-Synchronisation! Bitte die Traces auf weiterführende Information prüfen!'
+        - ''
+        - ''
+      Entry_153:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) General Storage System error! See traces for specific information!'
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) Allgemeiner Storage System Fehler! Bitte die Traces auf weiterführende Information prüfen!'
+        - ''
+        - ''
+      Entry_154:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) General Storage System error! See traces for specific information!'
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) Allgemeiner Storage System Fehler! Bitte die Traces auf weiterführende Information prüfen!'
+        - ''
+        - ''
+      Entry_160:
+        Text:
+        - 'Host1 (@S1%s@): Online Backup failed'
+        - 'Host1 (@S1%s@): Online Backup fehlgeschlagen'
+        - ''
+        - ''
+      Entry_161:
+        Text:
+        - 'Host1 (@6%s@): @1%s@ (@2%s@ - @3%s@): Storage medium is unreachable!@5%t#4T@'
+        - 'Host1 (@6%s@): @1%s@ (@2%s@ - @3%s@): Speichermedium ist nicht erreichbar!@5%t#4T@'
+        - ''
+        - ''
+      Entry_162:
+        Text:
+        - 'Host2 (@6%s@): @1%s@ (@2%s@ - @3%s@): Storage medium is unreachable!@5%t#4T@'
+        - 'Host2 (@6%s@): @1%s@ (@2%s@ - @3%s@): Speichermedium ist nicht erreichbar!@5%t#4T@'
+        - ''
+        - ''
+      Entry_163:
+        Text:
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_164:
+        Text:
+        - ' Restart of the runtime is required!'
+        - ' Neustart der Runtime ist erforderlich!'
+        - ''
+        - ''
+      Entry_165:
+        Text:
+        - ' Eject and insert of correct media is required!'
+        - ' Bitte das Medium ordnungsgemäß auswerfen und ein korrektes Medium einstecken!'
+        - ''
+        - ''
+      Entry_167:
+        Text:
+        - 'Host1 (@2%s@): Storage Application @1%s@ detected a newer database version, which cannot be handled by this runtime version. Please update the runtime version on this device or use another device with the same version as the database was taken from.'
+        - 'Host1 (@2%s@): Storage Applikation @1%s@ hat eine neuere Datenbankversion entdeckt, die von dieser Runtime-Version nicht bearbeitet werden kann. Bitte Runtime-Version auf diesem GerÃ¤t updaten oder ein Gerät mit derselben Version verwenden wie das, von dem die Datenbank stammt.'
+        - ''
+        - ''
+      Entry_168:
+        Text:
+        - 'Host2 (@2%s@): Storage Application @1%s@ detected a newer database version, which cannot be handled by this runtime version. Please update the runtime version on this device or use another device with the same version as the database was taken from.'
+        - 'Host2 (@2%s@): Storage Applikation @1%s@ hat eine neuere Datenbankversion entdeckt, die von dieser Runtime-Version nicht bearbeitet werden kann. Bitte Runtime-Version auf diesem GerÃ¤t updaten oder ein Gerät mit derselben Version verwenden wie das, von dem die Datenbank stammt.'
+        - ''
+        - ''
+      Entry_169:
+        Text:
+        - 'Host1 (@4%s@): @1%s@: Backup of a segment or consistency check on log @2%s@ has failed! Check if the backup path is available and permissions are provided. Backup path: @3%s@'
+        - 'Host1 (@4%s@): @1%s@: Das Backup oder die Konsistenzprüfung eines Segments auf Log @2%s@ ist fehlgeschlagen! Prüfen Sie, ob der Backuppfad verfügbar ist und die Berechtigungen vorhanden sind. Backuppfad: @3%s@'
+        - ''
+        - ''
+      Entry_170:
+        Text:
+        - 'Host2 (@4%s@): @1%s@: Backup of a segment or consistency check on log @2%s@ has failed! Check if the backup path is available and permissions are provided. Backup path: @3%s@'
+        - 'Host2 (@4%s@): @1%s@: Das Backup oder die Konsistenzprüfung eines Segments auf Log @2%s@ ist fehlgeschlagen! Prüfen Sie, ob der Backuppfad verfügbar ist und die Berechtigungen vorhanden sind. Backuppfad: @3%s@'
+        - ''
+        - ''
+      Entry_175:
+        Text:
+        - 'Host1 (@4%s@): @1%s@: Storage (@3%s@) is corrupted, therefore cannot be opened! Path: @2%s@'
+        - 'Host1 (@4%s@): @1%s@: Der Storage (@3%s@) ist korrumpiert und kann daher nicht geöffnet werden! Pfad: @2%s@'
+        - ''
+        - ''
+      Entry_176:
+        Text:
+        - 'Host2 (@4%s@): @1%s@: Storage (@3%s@) is corrupted, therefore cannot be opened! Path: @2%s@'
+        - 'Host2 (@4%s@): @1%s@: Der Storage (@3%s@) ist korrumpiert und kann daher nicht geöffnet werden! Pfad: @2%s@'
+        - ''
+        - ''
+      Entry_166:
+        Text:
+        - 'Host1 (@2%s@): Loading configuration data created at runtime failed: @3%s@'
+        - 'Host1 (@2%s@): Das Laden der zur Laufzeit generierten Konfigurationsdaten ist fehlgeschlagen: @3%s@'
+        - ''
+        - ''
+      Entry_200:
+        Text:
+        - HmiConnection - HeartbeatCycle must be lower than HeartbeatResponse
+        - HmiConnection - HeartbeatCycle muss kleiner sein als HeartbeatResponse
+        - ''
+        - ''
+      Entry_201:
+        Text:
+        - HmiConnection - Cyclic Services are configured, but not supported on the target device
+        - HmiConnection - Zyklische Dienste sind konfiguriert, werden aber auf der SPS nicht unterstützt
+        - ''
+        - ''
+      Entry_202:
+        Text:
+        - HmiConnection - Change Driven Read is configured, but not supported on the target device
+        - HmiConnection - Änderungsgesteuertes Lesen ist konfiguriert, wird von der SPS aber nicht unterstützt
+        - ''
+        - ''
+      Entry_203:
+        Text:
+        - HmiTag - The address @6%s@ does not exist in the PLC
+        - HmiTag - Die Adresse @6%s@ existiert nicht in der SPS
+        - ''
+        - ''
+      Entry_204:
+        Text:
+        - HmiTag - The default transformation type for address @6%s@ could not be determined
+        - HmiTag - Der Standardkonvertierungstyp für die Adresse @6%s@ konnte nicht ermittelt werden
+        - ''
+        - ''
+      Entry_205:
+        Text:
+        - HmiTag - Illegal transformation type.
+        - HmiTag - Unerlaubter Konvertierungstyp
+        - ''
+        - ''
+      Entry_206:
+        Text:
+        - HmiCycle - Cannot be used, transformation is unsupported on HmiCycle
+        - HmiCycle - Kann nicht genutzt werden, Konvertierung wird nicht unterstützt am HmiCycle
+        - ''
+        - ''
+      Entry_207:
+        Text:
+        - HmiConnection - Address version @6%s@ is not supported yet
+        - HmiConnection - Version der Adresse @6%s@ wird nicht unterstützt
+        - ''
+        - ''
+      Entry_208:
+        Text:
+        - HmiConnection - Profibus Addresses are not supported yet
+        - HmiConnection - Profibus Adresse wird nicht unterstützt
+        - ''
+        - ''
+      Entry_209:
+        Text:
+        - HmiConnection - Softbus Addresses are not supported yet
+        - HmiConnection - Softbus Adresse wird nicht unterstützt
+        - ''
+        - ''
+      Entry_210:
+        Text:
+        - HmiConnection - Address Type @6%s@ is not supported
+        - HmiConnection - Adresstyp @6%s@ wird nicht unterstützt
+        - ''
+        - ''
+      Entry_211:
+        Text:
+        - HmiConnection - Invalid named connection @6%s@. AccessPoint is ignored
+        - HmiConnection - Ungültige Named Connection @6%s@. AccessPoint wird ignoriert
+        - ''
+        - ''
+      Entry_212:
+        Text:
+        - HmiConnection - Routed addresses are not supported. RouteHop @6%s@ won't be used.
+        - HmiConnection - Routed addresses werden nicht unterstützt. RouteHop @6%s@ wird nicht verwendet.
+        - ''
+        - ''
+      Entry_213:
+        Text:
+        - HmiConnection - Routed addresses are not supported. RouteNet @6%s@ won't be used.
+        - HmiConnection - Routed addresses werden nicht unterstützt. RouteNet @6%s@ wird nicht verwendet.
+        - ''
+        - ''
+      Entry_214:
+        Text:
+        - HmiConnection - Invalid IP address @6%s@
+        - HmiConnection - Ungültige IP Adresse @6%s@
+        - ''
+        - ''
+      Entry_215:
+        Text:
+        - HmiConnection - Invalid named connection @6%s@. Format is supposed to be >VMD</>Connection<
+        - 'HmiConnection - Ungültige Named Connection @6%s@. Format sollte wie folgt angegeben werden: >VMD</>Verbindung<'
+        - ''
+        - ''
+      Entry_216:
+        Text:
+        - HmiConnection - Invalid named connection @6%s@. VMD too long. At most 24 characters are allowed.
+        - HmiConnection - Ungültige Named Connection @6%s@. VMD zu lang. Es sind nur 24 Zeichen erlaubt.
+        - ''
+        - ''
+      Entry_217:
+        Text:
+        - HmiConnection - Invalid named connection @6%s@. Connection too long. At most 32 characters are allowed.
+        - HmiConnection - Ungültige Named Connection @6%s@. Verbindungsname zu lang. Es sind nur 32 Zeichen erlaubt.
+        - ''
+        - ''
+      Entry_218:
+        Text:
+        - HmiConnection - Rack number @6%s@ is out of range (0..7)
+        - HmiConnection - Racknummer @6%s@ ist außerhalb des erlaubten Bereichs (0..7)
+        - ''
+        - ''
+      Entry_219:
+        Text:
+        - HmiConnection - Invalid named connection @6%s@. Rack is ignored
+        - HmiConnection - Ungültige Named Connection @6%s@. Rack wird ignoriert
+        - ''
+        - ''
+      Entry_220:
+        Text:
+        - HmiConnection - Slot number @6%s@ is out of range (1..32)
+        - HmiConnection - Slotnummer @6%s@ ist außerhalb des erlaubten Bereichs (1..32)
+        - ''
+        - ''
+      Entry_221:
+        Text:
+        - HmiConnection - Invalid named connection @6%s@. Slot is ignored
+        - HmiConnection - Ungültige Named Connection @6%s@. Slot wird ignoriert
+        - ''
+        - ''
+      Entry_222:
+        Text:
+        - Connection could not be established - Maximum number of possible connections (@6%s@) reached
+        - Verbindung konnte nicht hergestellt werden - Maximale Anzahl von verfügbaren Verbindungen (@6%s@) überschritten
+        - ''
+        - ''
+      Entry_223:
+        Text:
+        - Connection broken - No life sign received in last @4%s@ ms.
+        - Verbindung abgebrochen - Kein Lebenszeichen in den letzten @4%s@ ms.
+        - ''
+        - ''
+      Entry_224:
+        Text:
+        - Connection could not be established - @4%s@
+        - Verbindung konnte nicht hergestellt werden - @4%s@
+        - ''
+        - ''
+      Entry_225:
+        Text:
+        - Connection could not be established - The provided address @6%s@ cannot be used
+        - Verbindung konnte nicht hergestellt werden - Die Adresse @6%s@ kann nicht verwendet werden
+        - ''
+        - ''
+      Entry_226:
+        Text:
+        - Connection could not be established - Invalid address @6%s@
+        - Verbindung konnte nicht hergestellt werden - Ungültige Adresse @6%s@
+        - ''
+        - ''
+      Entry_227:
+        Text:
+        - Connection could not be established - @4%s@
+        - Verbindung konnte nicht hergestellt werden - @4%s@
+        - ''
+        - ''
+      Entry_275:
+        Text:
+        - AlarmAnnunciator - Invalid condition string for annunciator @6%s@
+        - AlarmAnnunciator - Ungültiger Condition String für Annunciator @6%s@
+        - ''
+        - ''
+      Entry_276:
+        Text:
+        - AlarmAnnunciator - Invalid state tag and bit for annunciator @6%s@
+        - AlarmAnnunciator - Ungültiger State Tag und Bit für Annunciator @6%s@
+        - ''
+        - ''
+      Entry_277:
+        Text:
+        - AlarmAnnunciator - Invalid silence control tag and bit for annunciator @6%s@
+        - AlarmAnnunciator - Ungültiger Silence Control Tag und Bit für Annunciator @6%s@
+        - ''
+        - ''
+      Entry_280:
+        Text:
+        - 'CDS-Cache - Cache folder could not be created or accessed: @6%s@'
+        - 'CDS-Cache - Cache Verzeichnis kann nicht erstellt oder verwendet werden: @6%s@'
+        - ''
+        - ''
+      Entry_281:
+        Text:
+        - 'LOC-Cache - Cache folder could not be created or accessed: @6%s@'
+        - 'LOC-Cache - Cache Verzeichnis kann nicht erstellt oder verwendet werden: @6%s@'
+        - ''
+        - ''
+      Entry_300:
+        Text:
+        - EvDpManager::cleanupDeletedDatapoint - alert handler config is deleted implicitly for deleted datapoint, @3%s@
+        - 'EvDpManager::cleanupDeletedDatapoint - alert handler config wurde implizit gelöscht, betroffen: @3%s@'
+        - ''
+        - ''
+      Entry_301:
+        Text:
+        - EvDpManager::cleanupDeletedDatapoint - alert handler config is deleted implicitly but still has overrides, @3%s@
+        - EvDpManager::cleanupDeletedDatapoint - alert handler config wurde implizit gelöscht, aber hat noch Attributlisteneinträge, @3%s@
+        - ''
+        - ''
+      Entry_302:
+        Text:
+        - EvDpManager::cleanupDeletedDatapoint - default value config is deleted implicitly for deleted datapoint, @3%s@
+        - 'EvDpManager::cleanupDeletedDatapoint - Default value config wurde implizit gelöscht, betroffen: @3%s@'
+        - ''
+        - ''
+      Entry_303:
+        Text:
+        - EvDpManager::cleanupDeletedDatapoint - default value config is deleted implicitly but still has overrides, @3%s@
+        - EvDpManager::cleanupDeletedDatapoint - Default value config wurde implizit gelöscht, aber hat noch Attributlisteneinträge, @3%s@
+        - ''
+        - ''
+      Entry_304:
+        Text:
+        - EvDpManager::cleanupDeletedDatapoint - initial value config is deleted implicitly for deleted datapoint, @3%s@
+        - 'EvDpManager::cleanupDeletedDatapoint - Initial value config wurde implizit gelöscht, betroffen: @3%s@'
+        - ''
+        - ''
+      Entry_305:
+        Text:
+        - EvDpManager::cleanupDeletedDatapoint - initial value config is deleted implicitly but still has overrides, @3%s@
+        - EvDpManager::cleanupDeletedDatapoint - Initial value config wurde implizit gelöscht, aber hat noch Attributlisteneinträge, @3%s@
+        - ''
+        - ''
+      Entry_306:
+        Text:
+        - EvDpManager::cleanupDeletedDatapoint - distribution config is deleted implicitly for deleted datapoint, @3%s@
+        - 'EvDpManager::cleanupDeletedDatapoint - Distribution value config wurde implizit gelöscht, betroffen: @3%s@'
+        - ''
+        - ''
+      Entry_307:
+        Text:
+        - EvDpManager::cleanupDeletedDatapoint - distribution config is deleted implicitly but still has overrides, @3%s@
+        - EvDpManager::cleanupDeletedDatapoint - Distribution value config wurde implizit gelöscht, aber hat noch Attributlisteneinträge, @3%s@
+        - ''
+        - ''
+      Entry_308:
+        Text:
+        - EvDpManager::cleanupDeletedDatapoint - rangeCheck config is deleted implicitly for deleted datapoint, @3%s@
+        - 'EvDpManager::cleanupDeletedDatapoint - rangeCheck config wurde implizit gelöscht, betroffen: @3%s@'
+        - ''
+        - ''
+      Entry_309:
+        Text:
+        - EvDpManager::cleanupDeletedDatapoint - rangeCheck config is deleted implicitly but still has overrides, @3%s@
+        - EvDpManager::cleanupDeletedDatapoint - rangeCheck config wurde implizit gelöscht, aber hat noch Attributlisteneinträge, @3%s@
+        - ''
+        - ''
+      Entry_350:
+        Text:
+        - DpType has been deleted but there is still a type config defined for the type node, @3%s@
+        - DpType wurde gelöscht, aber es ist noch ein Typ config definiert für die Type node, @3%s@
+        - ''
+        - ''
+      Entry_351:
+        Text:
+        - DpTypeNode has been deleted in DpType but there is still a type config defined for the element, @3%s@
+        - DpTypeNode wurde gelöscht, aber es ist noch ein DpType config definiert für die DpTypeNode, @3%s@
+        - ''
+        - ''
+      Entry_398:
+        Text:
+        - Host (@S1%s@):Delta Activation active
+        - Host (@S1%s@):Delta Activation läuft
+        - ''
+        - ''
+      Entry_399:
+        Text:
+        - Host (@S1%s@):Delta Rollback active
+        - Host (@S1%s@):Delta Rollback läuft
+        - ''
+        - ''
+      Entry_400:
+        Text:
+        - Online Backup active
+        - Online Backup läuft
+        - ''
+        - ''
+      Entry_450:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) Fallback storage space of central archive is low!'
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) Fallback-Speicherplatz des Zentralarchivs ist niedrig!'
+        - ''
+        - ''
+      Entry_451:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) Fallback storage space of central archive is low!'
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) Fallback-Speicherplatz des Zentralarchivs ist niedrig!'
+        - ''
+        - ''
+      Entry_452:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) Fallback storage space of central archive is very low!'
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) Fallback-Speicherplatz des Zentralarchivs ist sehr niedrig!'
+        - ''
+        - ''
+      Entry_453:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) Fallback storage space of central archive is very low!'
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) Fallback-Speicherplatz des Zentralarchivs ist sehr niedrig!'
+        - ''
+        - ''
+      Entry_454:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) Fallback storage space of central archive is full!'
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) Fallback-Speicherplatz des Zentralarchivs ist voll!'
+        - ''
+        - ''
+      Entry_455:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) Fallback storage space of central archive is full!'
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) Fallback-Speicherplatz des Zentralarchivs ist voll!'
+        - ''
+        - ''
+      Entry_500:
+        Text:
+        - 'HighLimitViolation for Tag @1%s@ occurred, Hostname: @S1%s@'
+        - 'HighLimitViolation für Tag @1%s@ festgestellt, Hostname: @S1%s@'
+        - ''
+        - ''
+      Entry_501:
+        Text:
+        - 'LowLimitViolation for Tag @1%s@ occurred, Hostname: @S1%s@'
+        - 'LowLimitViolation für Tag @1%s@ festgestellt, Hostname: @S1%s@'
+        - ''
+        - ''
+      Entry_600:
+        Text:
+        - Connection not established - Application instance certificate not configured
+        - Verbindung konnte nicht hergestellt werden - Applikation Instanz Zertifikat ist nicht konfiguriert
+        - ''
+        - ''
+      Entry_601:
+        Text:
+        - Connection not established - Server rejected client certificate - OPC UA status code @4%s@
+        - Verbindung konnte nicht hergestellt werden - Server hat das Client Zertifikat abgelehnt - OPC UA Status Code @4%s@
+        - ''
+        - ''
+      Entry_602:
+        Text:
+        - Connection not established - Internal certificate store problem - OPC UA status code @4%s@
+        - Verbindung konnte nicht hergestellt werden - Internes Problem in der Zertifikatsdatenbank - OPC UA Status Code @4%s@
+        - ''
+        - ''
+      Entry_603:
+        Text:
+        - Connection not established - Loading application instance certificate failed - OPC UA status code @4%s@
+        - Verbindung konnte nicht hergestellt werden - Applikation Instanz Zertifikat konnte nicht geladen werden - OPC UA Status Code @4%s@
+        - ''
+        - ''
+      Entry_604:
+        Text:
+        - Connection not established - Server has not provided certificate. @4%s@
+        - Verbindung konnte nicht hergestellt werden - Server hat kein Zertifikat zur Verfügung gestellt. @4%s@
+        - ''
+        - ''
+      Entry_605:
+        Text:
+        - Connection not established - Server certificate validation failed - OPC UA status code @4%s@
+        - Verbindung konnte nicht hergestellt werden - Validierung vom Server Zertifikat ist fehlgeschlagen - OPC UA Status Code @4%s@
+        - ''
+        - ''
+      Entry_606:
+        Text:
+        - Connection was closed - Alarm synchronization failed - OPC UA status code @4%s@
+        - Verbindung wurde geschlossen - Fehler bei der Alarmsynchronisation - OPC UA Status Code @4%s@
+        - ''
+        - ''
+      Entry_607:
+        Text:
+        - Connection was closed - Alarm/Event subscription failed due to server operation count limit exceeded
+        - Verbindung wurde geschlossen - Alarm/Event Subscription konnte wegen einer Operation Limit Überschreitung nicht hergestellt werden
+        - ''
+        - ''
+      Entry_608:
+        Text:
+        - Connection was closed - Alarm/Event subscription failed due to server subscription count limit exceeded
+        - Verbindung wurde geschlossen - Alarm/Event Subscription konnte wegen einer Subscription Limit Überschreitung nicht hergestellt werden
+        - ''
+        - ''
+      Entry_609:
+        Text:
+        - Connection not established - Server reported license problem - OPC UA status code @4%s@
+        - Verbindung konnte nicht hergestellt werden - Server meldet ein Lizenzproblem - OPC UA Status Code @4%s@
+        - ''
+        - ''
+      Entry_610:
+        Text:
+        - Connection not established - Maximum Number of Server Sessions reached
+        - Verbindung konnte nicht hergestellt werden - Maximale Anzahl an Server Sessions wurde überschritten
+        - ''
+        - ''
+      Entry_611:
+        Text:
+        - Connection not established - Inconsistent security configuration - @4%s@
+        - Verbindung konnte nicht hergestellt werden - Security Konfiguration ist inkonsistent - @4%s@
+        - ''
+        - ''
+      Entry_612:
+        Text:
+        - Connection not established - The provided address @4%s@ cannot be used
+        - Verbindung konnte nicht hergestellt werden - Die Adresse @4%s@ kann nicht verwendet werden
+        - ''
+        - ''
+      Entry_613:
+        Text:
+        - Connection not established - OPC UA status code @4%s@
+        - Verbindung konnte nicht hergestellt werden - OPC UA Status Code @4%s@
+        - ''
+        - ''
+      Entry_614:
+        Text:
+        - The connection was lost - OPC UA server was shut down
+        - Verbindung abgebrochen - OPC UA Server wurde gestoppt
+        - ''
+        - ''
+      Entry_615:
+        Text:
+        - The connection was lost - No life sign received in last @4%s@ milliseconds
+        - Verbindung abgebrochen - Kein Lebenszeichen in den letzten @4%s@ ms
+        - ''
+        - ''
+      Entry_616:
+        Text:
+        - Connection was closed - OPC UA Server in maintenance
+        - Verbindung wurde geschlossen - OPC UA Server Wartung
+        - ''
+        - ''
+      Entry_617:
+        Text:
+        - Connection not established - Invalid authentication configuration with Authentication Mode - @4%s@
+        - Verbindung konnte nicht hergestellt werden - Ungültige Konfiguration des Authentifizierungsmodus - @4%s@
+        - ''
+        - ''
+      Entry_618:
+        Text:
+        - Connection not established - User could not be authenticated - OPC UA status code @4%s@
+        - Verbindung konnte nicht hergestellt werden - Anwender konnte nicht authentifiziert werden - OPC UA Status Code @4%s@
+        - ''
+        - ''
+      Entry_619:
+        Text:
+        - Connection not established - Anonymous connection not allowed by server - OPC UA status code @4%s@
+        - Verbindung konnte nicht hergestellt werden - Server erlaubt keine anonyme Verbindung - OPC UA Status Code @4%s@
+        - ''
+        - ''
+      Entry_620:
+        Text:
+        - Connection not established - Certificate problem. Failed to write security relevant file to directory @4%s@
+        - Verbindung konnte nicht hergestellt werden - Zertifikatsproblem - Fehler beim Schreiben von Konfigurationsdaten nach @4%s@
+        - ''
+        - ''
+      Entry_621:
+        Text:
+        - Connection not established - Certificate problem. Unexpected file in certificate directory @4%s@ cannot be removed
+        - Verbindung konnte nicht hergestellt werden - Zertifikatsproblem - Unerwartete Datei im Verzeichnis @4%s@ kann nicht entfernt werden
+        - ''
+        - ''
+      Entry_622:
+        Text:
+        - Connection not established - User could not be authenticated - empty userID and password configured
+        - Verbindung konnte nicht hergestellt werden - Anwender konnte nicht authentifiziert werden - Keine Anwender oder Passwort konfiguriert
+        - ''
+        - ''
+      Entry_623:
+        Text:
+        - Connection not established - Length of configured server certificate exceeded limit. @4%s@
+        - Verbindung konnte nicht hergestellt werden - Unerwartete Länge vom Server Zertifikat. @4%s@
+        - ''
+        - ''
+      Entry_624:
+        Text:
+        - Connection not established - Configured @4%s@ has zero length
+        - Verbindung konnte nicht hergestellt werden - @4%s@ ohne Inhalt
+        - ''
+        - ''
+      Entry_625:
+        Text:
+        - Connection not established - Configured @4%s@ has unexpected format
+        - Verbindung konnte nicht hergestellt werden - @4%s@ hat ein unerwartetes Format
+        - ''
+        - ''
+      Entry_626:
+        Text:
+        - Connection not established - Cannot read endpoints from server. OPC UA status code @4%s@
+        - Verbindung konnte nicht hergestellt werden - Server EndPoints können nicht gelesen werden. OPC UA Status Code @4%s@
+        - ''
+        - ''
+      Entry_627:
+        Text:
+        - Connection not established - No endpoints found for server. @4%s@
+        - Verbindung konnte nicht hergestellt werden - Kein Server Endpoints gefunden. @4%s@
+        - ''
+        - ''
+      Entry_628:
+        Text:
+        - Connection not established - Application instance certificate not found.
+        - Verbindung konnte nicht hergestellt werden - Applikation Instanz Zertifikat wurde nicht gefunden.
+        - ''
+        - ''
+      Entry_629:
+        Text:
+        - Connection not established - Unexpected format of certificate @4%s@
+        - Verbindung konnte nicht hergestellt werden - Unerwartetes Format des Zertifikats @4%s@
+        - ''
+        - ''
+      Entry_630:
+        Text:
+        - Connection not established - Unexpected format of revocation list @4%s@
+        - Verbindung konnte nicht hergestellt werden - Unerwartetes Format der Zertifikatsperrliste @4%s@
+        - ''
+        - ''
+      Entry_631:
+        Text:
+        - Connection not established - User could not be authenticated - Encryption detail invalid - @4%s@
+        - Verbindung konnte nicht hergestellt werden - Anwender konnte nicht authentifiziert werden - @4%s@
+        - ''
+        - ''
+      Entry_632:
+        Text:
+        - Connection not established - The configured nontransparent redundancy mode @4%s@ is not supported
+        - Verbindung konnte nicht hergestellt werden - Der konfigurierte nontransparent redundancy mode @4%s@ wird nicht unterstützt
+        - ''
+        - ''
+      Entry_650:
+        Text:
+        - HmiTag - Provided address @6%s@ does not exist in the server
+        - HmiTag - Adresse @6%s@ existiert nicht im Server
+        - ''
+        - ''
+      Entry_651:
+        Text:
+        - HmiTag - Provided address @6%s@ is not accessible
+        - HmiTag - Auf Adresse @6%s@ kann nicht zugegriffen werden
+        - ''
+        - ''
+      Entry_652:
+        Text:
+        - HmiTag - Acquisition Mode not supported for provided address @6%s@
+        - HmiTag - Acquisition Mode ist für Adresse @6%s@ nicht unterstützt
+        - ''
+        - ''
+      Entry_653:
+        Text:
+        - HmiAlarm - Provided address @6%s@ does not exist in the server
+        - HmiAlarm - Adresse @6%s@ existiert nicht im Server
+        - ''
+        - ''
+      Entry_654:
+        Text:
+        - HmiAlarm - Provided address @6%s@ cannot be used because the area filter provided is not an OPC UA event notifier
+        - HmiAlarm - Adresse @6%s@ kann nicht verwendet werden - Area Filter ist kein OPC UA event notifier
+        - ''
+        - ''
+      Entry_655:
+        Text:
+        - HmiAlarm - Provided address @6%s@ cannot be used because the area filter provided does not exist in the server
+        - HmiAlarm - Adresse @6%s@ kann nicht verwendet werden - Area Filter existiert nicht
+        - ''
+        - ''
+      Entry_656:
+        Text:
+        - HmiAlarm - Provided address @6%s@ cannot be used because it is not an OPC UA event type
+        - HmiAlarm - Adresse @6%s@ kann nicht verwendet werden da es sich um keine OPC UA event type handelt
+        - ''
+        - ''
+      Entry_657:
+        Text:
+        - HmiAlarm - Provided address @6%s@ cannot be used because the OPC UA condition type is not supported
+        - HmiAlarm - Adresse @6%s@ kann nicht verwendet werden - OPC UA Condition Type wird nicht unterstützt
+        - ''
+        - ''
+      Entry_658:
+        Text:
+        - HmiAlarm - Provided address @6%s@ cannot be used because the event type provided does not exist in the server
+        - HmiAlarm - Adresse @6%s@ kann nicht verwendet werden - Der Event Type existiert nicht im Server
+        - ''
+        - ''
+      Entry_659:
+        Text:
+        - HmiAlarm - Acquisition Mode value not supported for provided address @6%s@
+        - HmiAlarm - Acquisition Mode kann nicht für Adresse @6%s@ verwendet werden
+        - ''
+        - ''
+      Entry_660:
+        Text:
+        - Provided address @6%s@ cannot be used because it is missing version
+        - Adresse @6%s@ kann nicht verwendet werden - Versionsnummer fehlt
+        - ''
+        - ''
+      Entry_661:
+        Text:
+        - Provided address @6%s@ cannot be used because it contains invalid version
+        - Adresse @6%s@ kann nicht verwendet werden - Versionsnummer ist ungültig
+        - ''
+        - ''
+      Entry_662:
+        Text:
+        - Provided address @6%s@ cannot be used because it has invalid count of separators '$'
+        - Adresse @6%s@ kann nicht verwendet werden - Ungültige Syntax
+        - ''
+        - ''
+      Entry_663:
+        Text:
+        - Provided address @6%s@ cannot be used because the address kind is invalid
+        - Adresse @6%s@ kann nicht verwendet werden - Type der Adresse ist ungültig
+        - ''
+        - ''
+      Entry_664:
+        Text:
+        - Unsupported version @6%s@ of Address
+        - Nicht unterstützte Version @6%s@ der Adresse
+        - ''
+        - ''
+      Entry_665:
+        Text:
+        - 'Unexpected OPC UA Server response: @6%s@'
+        - 'Nicht erwartete Antwort von OPC UA Server: @6%s@'
+        - ''
+        - ''
+      Entry_700:
+        Text:
+        - 'TagLogging configuration error: implicit deletion - LoggingTag instance @6%s@ should be deleted but has overrides '
+        - 'TagLogging Konfigurationsfehler: Implizites löschen – LoggingTag Instanz @6%s@ sollte gelöscht werden, es existieren aber überladene Elemente'
+        - ''
+        - ''
+      Entry_722:
+        Text:
+        - 'Host1 (@2%s@): Manager (@1%s@) Link0 not connected'
+        - 'Host1 (@2%s@): Manager (@1%s@) Link0 nicht verbunden'
+        - ''
+        - ''
+      Entry_723:
+        Text:
+        - 'Host1 (@2%s@): Manager (@1%s@) Link1 not connected'
+        - 'Host1 (@2%s@): Manager (@1%s@) Link1 nicht verbunden'
+        - ''
+        - ''
+      Entry_724:
+        Text:
+        - 'Host2 (@2%s@): Manager (@1%s@) Link0 not connected'
+        - 'Host2 (@2%s@): Manager (@1%s@) Link0 nicht verbunden'
+        - ''
+        - ''
+      Entry_725:
+        Text:
+        - 'Host2 (@2%s@): Manager (@1%s@) Link1 not connected'
+        - 'Host2 (@2%s@): Manager (@1%s@) Link1 nicht verbunden'
+        - ''
+        - ''
+      Entry_800:
+        Text:
+        - 'NameService configuration error: Implicit deletion - Subelement instance @6%s@ must be deleted explicitly'
+        - 'NameService Konfigurationsfehler: Implizites Löschen – Subelement Instanz @6%s@ muss explizit gelöscht werden'
+        - ''
+        - ''
+      Entry_801:
+        Text:
+        - 'NameService configuration error: Implicit deletion - Alias/Format/Unit instance @6%s@ must be deleted explicitly'
+        - 'NameService Konfigurationsfehler: Implizites Löschen – Alias/Format/Unit Instanz @6%s@ muss explizit gelöscht werden'
+        - ''
+        - ''
+      Entry_901:
+        Text:
+        - 'Host2 (@S1%s@): User-Name: @S2%s@, Tag-Name: @2%s@, Old Value: @3%v@, New Value: @4%v@, Unit: @5%s@, Reason: @6%s@'
+        - 'Host2 (@S1%s@): Benutzer-Name: @S2%s@, Tag-Name: @2%s@, Alter Wert: @3%v@, Neuer Wert: @4%v@, Einheit: @5%s@, Ursache: @6%s@'
+        - ''
+        - ''
+      Entry_902:
+        Text:
+        - "Host2 (@S1%s@): Event 'LoggingOverloadError' raised"
+        - "Host2 (@S1%s@): Event 'LoggingOverloadError' wurde ausgelöst"
+        - ""
+        - ""
+      Entry_903:
+        Text:
+        - 'Host2 (@S1%s@): Activation failed and Rollback succeeded'
+        - 'Host2 (@S1%s@): Erfolgreicher Rollback nach fehlgeschlagener Activation'
+        - ''
+        - ''
+      Entry_904:
+        Text:
+        - 'Host2 (@S1%s@): Delta Rollback failed'
+        - 'Host2 (@S1%s@): Delta Rollback fehlgeschlagen'
+        - ''
+        - ''
+      Entry_905:
+        Text:
+        - 'Host2 (@S1%s@): A time leap of @2%1.3f@ seconds has been detected'
+        - 'Host2 (@S1%s@): Es wurde ein Zeitsprung von @2%1.3f@ Sekunden festgestellt'
+        - ''
+        - ''
+      Entry_906:
+        Text:
+        - 'Host2 (@S1%s@): Connection-ID: @S7%u@, Connection-State: @2%u@'
+        - 'Host2 (@S1%s@): Verbindungs-ID: @S7%u@, Verbindungs-Status: @2%u@'
+        - ''
+        - ''
+      Entry_907:
+        Text:
+        - ''
+        - ''
+        - 'Host2 (@S1%s@): @5%t#4T@'
+        - ''
+      Entry_908:
+        Text:
+        - 'Host2 (@S1%s@): RDF Merge failed: @2%s@'
+        - 'Host2 (@S1%s@): RDF Merge fehlgeschlagen: @2%s@'
+        - ''
+        - ''
+      Entry_909:
+        Text:
+        - 'Host2 (@S1%s@): Commit of Delta Activation failed because of corrupted file system.'
+        - 'Host2 (@S1%s@): Delta Aktivierung fehlgeschlagen wegen beschädigtem Dateisystem.'
+        - ''
+        - ''
+      Entry_910:
+        Text:
+        - 'Host2 (@S1%s@): Persisting of configuration changes failed.'
+        - 'Host2 (@S1%s@): Speicherung der Konfigurationsänderungen fehlgeschlagen.'
+        - ''
+        - ''
+      Entry_911:
+        Text:
+        - 'Host2 (@S1%s@): Online Backup failed'
+        - 'Host2 (@S1%s@): OnlineBackup fehlgeschlagen'
+        - ''
+        - ''
+      Entry_912:
+        Text:
+        - 'Host1 (@2%s@): Loading configuration data created at runtime failed: @3%s@'
+        - 'Host1 (@2%s@): Das Laden der zur Laufzeit generierten Konfigurationsdaten ist fehlgeschlagen: @3%s@'
+        - ''
+        - ''
+      Entry_920:
+        Text:
+        - 'Host1 (@S1%s@): Disk Space low (Tag: @1%s@)'
+        - 'Host1 (@S1%s@): System Speicherplatz niedrig (Tag: @1%s@)'
+        - ''
+        - ''
+      Entry_921:
+        Text:
+        - 'Host1 (@S1%s@): Disk Space very low (Tag: @1%s@)'
+        - 'Host1 (@S1%s@): System Speicherplatz sehr niedrig (Tag: @1%s@)'
+        - ''
+        - ''
+      Entry_922:
+        Text:
+        - 'Host1 (@S1%s@): Storage Device not available (Tag: @1%s@)'
+        - 'Host1 (@S1%s@): Speichermedium nicht verfügbar (Tag: @1%s@)'
+        - ''
+        - ''
+      Entry_923:
+        Text:
+        - 'Host1 (@S1%s@): Storage Device ready for unmount (Tag: @1%s@)'
+        - 'Host1 (@S1%s@): Speichermedium kann gewechselt werden (Tag: @1%s@)'
+        - ''
+        - ''
+      Entry_925:
+        Text:
+        - 'Host2 (@S1%s@): Disk Space low (Tag: @1%s@)'
+        - 'Host2 (@S1%s@): System Speicherplatz niedrig (Tag: @1%s@)'
+        - ''
+        - ''
+      Entry_926:
+        Text:
+        - 'Host2 (@S1%s@): Disk Space very low (Tag: @1%s@)'
+        - 'Host2 (@S1%s@): System Speicherplatz sehr niedrig (Tag: @1%s@)'
+        - ''
+        - ''
+      Entry_927:
+        Text:
+        - 'Host2 (@S1%s@): Storage Device not available (Tag: @1%s@)'
+        - 'Host2 (@S1%s@): Speichermedium nicht verfügbar (Tag: @1%s@)'
+        - ''
+        - ''
+      Entry_928:
+        Text:
+        - 'Host2 (@S1%s@): Storage Device ready for unmount (Tag: @1%s@)'
+        - 'Host2 (@S1%s@): Speichermedium kann gewechselt werden (Tag: @1%s@)'
+        - ''
+        - ''
+      Entry_950:
+        Text:
+        - 'Host1 (@S1%s@): certificate for @2%s@ is not found in the certificate store. Details: @3%s@ '
+        - 'Host1 (@S1%s@): Das Zertifikat für @2%s@ in der Zertifikatspeicher nicht gefunden . Details: @3%s@ '
+        - ''
+        - ''
+      Entry_951:
+        Text:
+        - 'Host1 (@S1%s@): certificate for @2%s@ is expired, expiration date: @3%s@. Details: @4%s@ '
+        - 'Host1 (@S1%s@): Das Zertifikat ist für @2%s@ abgelaufen, das Ablaufdatum: @3%s@. Details: @4%s@ '
+        - ''
+        - ''
+      Entry_952:
+        Text:
+        - 'Host1 (@S1%s@): certificate for @2%s@ is about to be expired, expiration date: @3%s@ Details: @4%s@'
+        - 'Host1 (@S1%s@): Das Zertifikat läuft für @2%s@ demnächst ab, das Ablaufdatum: @3%s@. Details: @4%s@'
+        - ''
+        - ''
+      Entry_953:
+        Text:
+        - 'Host2 (@S1%s@): certificate for @2%s@ is not found in the certificate store. Details: @3%s@ '
+        - 'Host2 (@S1%s@): Das Zertifikat für @2%s@ in der Zertifikatspeicher nicht gefunden . Details: @3%s@ '
+        - ''
+        - ''
+      Entry_954:
+        Text:
+        - 'Host2 (@S1%s@): certificate for @2%s@ is expired, expiration date: @3%s@. Details: @4%s@ '
+        - 'Host2 (@S1%s@): Das Zertifikat ist für @2%s@ abgelaufen, das Ablaufdatum: @3%s@. Details: @4%s@ '
+        - ''
+        - ''
+      Entry_955:
+        Text:
+        - 'Host2 (@S1%s@): certificate for @2%s@ is about to be expired, expiration date: @3%s@ Details: @4%s@'
+        - 'Host2 (@S1%s@): Das Zertifikat läuft für @2%s@ demnächst ab, das Ablaufdatum: @3%s@. Details: @4%s@'
+        - ''
+        - ''
+      Entry_956:
+        Text:
+        - 'Host1 (@S1%s@): CRL(s) for CA certificate file(s) @2%s@ is/are missing.'
+        - 'Host1 (@S1%s@): Die CRL(s) für die/das CA Zertifikat(e) @2%s@ fehlen.'
+        - ''
+        - ''
+      Entry_957:
+        Text:
+        - 'Host1 (@S1%s@): The CRL(s) @2%s@ is/are expired.'
+        - 'Host1 (@S1%s@): Die CRL(s) @2%s@ ist/sind abgelaufen.'
+        - ''
+        - ''
+      Entry_958:
+        Text:
+        - 'Host2 (@S1%s@): CRL(s) for CA certificate file(s) @2%s@ is/are missing.'
+        - 'Host2 (@S1%s@): Die CRL(s) für die/das CA Zertifikat(e) @2%s@ fehlen.'
+        - ''
+        - ''
+      Entry_959:
+        Text:
+        - 'Host2 (@S1%s@): The CRL(s) @2%s@ is/are expired.'
+        - 'Host2 (@S1%s@): Die CRL(s) @2%s@ ist/sind abgelaufen.'
+        - ''
+        - ''
+      Entry_930:
+        Text:
+        - '@2%t#<RuntimeCollaborationFailureReason.1>@ when connecting from Host1 (@S1%s@) to System @5%u@ (@6%s@) on @4%s@'
+        - '@2%t#<RuntimeCollaborationFailureReason.1>@ bei Verbindung von Host1 (@S1%s@) zu System @5%u@ (@6%s@) auf @4%s@'
+        - ''
+        - ''
+      Entry_931:
+        Text:
+        - '@2%t#<RuntimeCollaborationFailureReason.1>@ when connecting from Host2 (@S1%s@) to System @5%u@ (@6%s@) on @4%s@'
+        - '@2%t#<RuntimeCollaborationFailureReason.1>@ bei Verbindung von Host2 (@S1%s@) zu System @5%u@ (@6%s@) auf @4%s@'
+        - ''
+        - ''
+      Entry_932:
+        Text:
+        - Unknown error
+        - Unbekannter Fehler
+        - ''
+        - ''
+      Entry_933:
+        Text:
+        - Network issue or System not running
+        - Netzwerkproblem oder das System läuft nicht
+        - ''
+        - ''
+      Entry_934:
+        Text:
+        - The runtime on the target system is not running
+        - Die Runtime auf dem Zielhost wurde nicht gestarted
+        - ''
+        - ''
+      Entry_935:
+        Text:
+        - System ID mismatch received @3%s@
+        - Systemidentifikationsdiskrepanz @3%s@ empfangen
+        - ''
+        - ''
+      Entry_936:
+        Text:
+        - System Name mismatch received '@3%s@'
+        - Systemnamendiskrepanz '@3%s@' empfangen
+        - ""
+        - ""
+      Entry_937:
+        Text:
+        - Wrong or unknown certificate
+        - Falsches oder unbekanntes Zertifikat
+        - ''
+        - ''
+      Entry_938:
+        Text:
+        - Revoked certificate
+        - Annuliertes Zertifikat
+        - ''
+        - ''
+      Entry_939:
+        Text:
+        - The time difference is too big
+        - Die Zeitdifferenz ist zu groß
+        - ''
+        - ''
+      Entry_940:
+        Text:
+        - No common supported message version
+        - Keine gemeinsame unterstützte Nachrichtenversion
+        - ''
+        - ''
+      Entry_941:
+        Text:
+        - Duplicate System ID detected (@3%s@)
+        - Doppelte System ID gefunden (@3%s@)
+        - ''
+        - ''
+      Entry_942:
+        Text:
+        - Duplicate System Name detected (@3%s@)
+        - Doppelter System Name gefunden (@3%s@)
+        - ''
+        - ''
+      Entry_943:
+        Text:
+        - Duplicate ID/name in local collaboration configuration
+        - Doppelte(r) ID/Name in lokaler Kollaborationskonfiguration
+        - ''
+        - ''
+      Entry_1000:
+        Text:
+        - 'Host1 (@3%s@): @1%s@ (@2%s@): lost connection to central storage system.'
+        - 'Host1 (@3%s@): @1%s@ (@2%s@): hat keine Verbindung zum zentralen Storage System.'
+        - ''
+        - ''
+      Entry_1001:
+        Text:
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): central storage is full!'
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): zentraler Speicher ist voll!'
+        - ''
+        - ''
+      Entry_1002:
+        Text:
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): no more central storage system resources available!'
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): keine zentrale Storage System Ressourcen mehr verfügbar!'
+        - ''
+        - ''
+      Entry_1003:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: Central write queue exceeded (first encountered in log @2%s@)! Data is lost!'
+        - 'Host1 (@3%s@): @1%s@: Zentraler Schreibbuffer-Überlauf (zuerst aufgetreten in log @2%s@)! Daten gehen verloren!'
+        - ''
+        - ''
+      Entry_1004:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Passive central storage system lost connection to active central storage system'
+        - 'Host1 (@2%s@): @1%s@: Das passive zentrale Storage System hat seine Verbindung zum aktiven zentralen Storage System verloren'
+        - ''
+        - ''
+      Entry_1005:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Central storage synchronizing with its redundant peer...'
+        - 'Host1 (@2%s@): @1%s@: Das zentrale Storage System wird mit seinem redundanten Partner abgeglichen...'
+        - ''
+        - ''
+      Entry_1006:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Central Failover failed!'
+        - 'Host1 (@2%s@): @1%s@: Zentraler Failover Fehler!'
+        - ''
+        - ''
+      Entry_1007:
+        Text:
+        - 'Host1 (@3%s@): @1%s@ (@2%s@) lost connection to central storage system backend (Archive)'
+        - 'Host1 (@3%s@): @1%s@ (@2%s@) keine Verbindung zum zentralen Storage System Backend (Archiv)'
+        - ''
+        - ''
+      Entry_1008:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: Central Transaction Buffer and Write queue exceeded at passive side (first encountered in log @2%s@)! Potential data loss! Avoid manual failover as long as this alarm is active!'
+        - 'Host1 (@3%s@): @1%s@: Zentral Transaktionsbuffer- und Schreibbuffer-Überlauf auf passiver Seite (zuerst aufgetreten in log @2%s@)! Potentieller Datenverlust! Vermeiden Sie manuelle Redundanz-Umschaltung solange dieser Alarm aktiv ist!'
+        - ''
+        - ''
+      Entry_1009:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) General central Storage System error! See traces for specific information!'
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) Allgemeiner Zentral Storage System Fehler! Bitte die Traces auf weiterführende Information prüfen!'
+        - ''
+        - ''
+      Entry_1010:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Synchronizing historical data from fallback storage to central storage!'
+        - 'Host1 (@2%s@): @1%s@: Synchronisation vom Puffer Storage System zum Zentral Storage System wird durchgeführt.'
+        - ''
+        - ''
+      Entry_1011:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Synchronization from fallback storage to central storage failed! See traces for specific information!'
+        - 'Host1 (@2%s@): @1%s@: Fehler während der Synchronization vom Puffer Storage System zum Zentral Storage System! Bitte die Traces auf weiterführende Information prüfen!'
+        - ''
+        - ''
+      Entry_1012:
+        Text:
+        - 'Host1 (@6%s@): @1%s@ (@2%s@ - @3%s@): Central storage medium is unreachable!@5%t#4T@'
+        - 'Host1 (@6%s@): @1%s@ (@2%s@ - @3%s@): Zentral Speichermedium ist nicht erreichbar!@5%t#4T@'
+        - ''
+        - ''
+      Entry_1013:
+        Text:
+        - 'Host1 (@2%s@): Central Storage Application @1%s@ detected a newer database version, which cannot be handled by this runtime version. Please update the runtime version on this device or use another device with the same version as the database was taken from.'
+        - 'Host1 (@2%s@): Zentral Storage Applikation @1%s@ hat eine neuere Datenbankversion entdeckt, die von dieser Runtime-Version nicht bearbeitet werden kann. Bitte Runtime-Version auf diesem GerÃ¤t updaten oder ein Gerät mit derselben Version verwenden wie das, von dem die Datenbank stammt.'
+        - ''
+        - ''
+      Entry_1014:
+        Text:
+        - 'Host1 (@4%s@): @1%s@: Backup of a segment or consistency check on central log @2%s@ has failed! Check if the backup path is available and permissions are provided. Backup path: @3%s@'
+        - 'Host1 (@4%s@): @1%s@: Das Backup oder die Konsistenzprüfung eines Segments auf zentral Log @2%s@ ist fehlgeschlagen! Prüfen Sie, ob der Backuppfad verfügbar ist und die Berechtigungen vorhanden sind. Backuppfad: @3%s@'
+        - ''
+        - ''
+      Entry_1015:
+        Text:
+        - 'Host1 (@4%s@): @1%s@: Central Storage (@3%s@) is corrupted, therefore cannot be opened! Path: @2%s@'
+        - 'Host1 (@4%s@): @1%s@: Zentral Storage (@3%s@) ist korrumpiert und kann daher nicht geöffnet werden! Pfad: @2%s@'
+        - ''
+        - ''
+      Entry_1100:
+        Text:
+        - 'Host2 (@3%s@): @1%s@ (@2%s@): lost connection to central storage system.'
+        - 'Host2 (@3%s@): @1%s@ (@2%s@): hat keine Verbindung zum zentralen Storage System.'
+        - ''
+        - ''
+      Entry_1101:
+        Text:
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): central storage is full!'
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): zentraler Speicher ist voll!'
+        - ''
+        - ''
+      Entry_1102:
+        Text:
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): no more central storage system resources available!'
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): keine zentrale Storage System Ressourcen mehr verfügbar!'
+        - ''
+        - ''
+      Entry_1103:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: Central write queue exceeded (first encountered in log @2%s@)! Data is lost!'
+        - 'Host2 (@3%s@): @1%s@: Zentraler Schreibbuffer-Überlauf (zuerst aufgetreten in log @2%s@)! Daten gehen verloren!'
+        - ''
+        - ''
+      Entry_1104:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Passive central storage system lost connection to active central storage system'
+        - 'Host2 (@2%s@): @1%s@: Das passive zentrale Storage System hat seine Verbindung zum aktiven zentralen Storage System verloren'
+        - ''
+        - ''
+      Entry_1105:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Central storage synchronizing with its redundant peer...'
+        - 'Host2 (@2%s@): @1%s@: Das zentrale Storage System wird mit seinem redundanten Partner abgeglichen...'
+        - ''
+        - ''
+      Entry_1106:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Central Failover failed!'
+        - 'Host2 (@2%s@): @1%s@: Zentraler Failover Fehler!'
+        - ''
+        - ''
+      Entry_1107:
+        Text:
+        - 'Host2 (@3%s@): @1%s@ (@2%s@) lost connection to central storage system backend (Archive)'
+        - 'Host2 (@3%s@): @1%s@ (@2%s@) keine Verbindung zum zentralen Storage System Backend (Archiv)'
+        - ''
+        - ''
+      Entry_1108:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: Central Transaction Buffer and Write queue exceeded at passive side (first encountered in log @2%s@)! Potential data loss! Avoid manual failover as long as this alarm is active!'
+        - 'Host2 (@3%s@): @1%s@: Zentral Transaktionsbuffer- und Schreibbuffer-Überlauf auf passiver Seite (zuerst aufgetreten in log @2%s@)! Potentieller Datenverlust! Vermeiden Sie manuelle Redundanz-Umschaltung solange dieser Alarm aktiv ist!'
+        - ''
+        - ''
+      Entry_1109:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) General central Storage System error! See traces for specific information!'
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) Allgemeiner Zentral Storage System Fehler! Bitte die Traces auf weiterführende Information prüfen!'
+        - ''
+        - ''
+      Entry_1110:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Synchronizing historical data from fallback storage to central storage!'
+        - 'Host2 (@2%s@): @1%s@: Synchronisation vom Puffer Storage System zum Zentral Storage System wird durchgeführt.'
+        - ''
+        - ''
+      Entry_1111:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Synchronization from fallback storage to central storage failed! See traces for specific information!'
+        - 'Host2 (@2%s@): @1%s@: Fehler während der Synchronization vom Puffer Storage System zum Zentral Storage System! Bitte die Traces auf weiterführende Information prüfen!'
+        - ''
+        - ''
+      Entry_1112:
+        Text:
+        - 'Host2 (@6%s@): @1%s@ (@2%s@ - @3%s@): Central storage medium is unreachable!@5%t#4T@'
+        - 'Host2 (@6%s@): @1%s@ (@2%s@ - @3%s@): Zentral Speichermedium ist nicht erreichbar!@5%t#4T@'
+        - ''
+        - ''
+      Entry_1113:
+        Text:
+        - 'Host2 (@2%s@): Central Storage Application @1%s@ detected a newer database version, which cannot be handled by this runtime version. Please update the runtime version on this device or use another device with the same version as the database was taken from.'
+        - 'Host2 (@2%s@): Zentral Storage Applikation @1%s@ hat eine neuere Datenbankversion entdeckt, die von dieser Runtime-Version nicht bearbeitet werden kann. Bitte Runtime-Version auf diesem GerÃ¤t updaten oder ein Gerät mit derselben Version verwenden wie das, von dem die Datenbank stammt.'
+        - ''
+        - ''
+      Entry_1114:
+        Text:
+        - 'Host2 (@4%s@): @1%s@: Backup of a segment or consistency check on central log @2%s@ has failed! Check if the backup path is available and permissions are provided. Backup path: @3%s@'
+        - 'Host2 (@4%s@): @1%s@: Das Backup oder die Konsistenzprüfung eines Segments auf zentral Log @2%s@ ist fehlgeschlagen! Prüfen Sie, ob der Backuppfad verfügbar ist und die Berechtigungen vorhanden sind. Backuppfad: @3%s@'
+        - ''
+        - ''
+      Entry_1115:
+        Text:
+        - 'Host2 (@4%s@): @1%s@: Central Storage (@3%s@) is corrupted, therefore cannot be opened! Path: @2%s@'
+        - 'Host2 (@4%s@): @1%s@: Zentral Storage (@3%s@) ist korrumpiert und kann daher nicht geöffnet werden! Pfad: @2%s@'
+        - ''
+        - ''
+      Entry_1200:
+        Text:
+        - 'Host1 (@3%s@): @1%s@ (@2%s@): lost connection to fallback storage system.'
+        - 'Host1 (@3%s@): @1%s@ (@2%s@): hat keine Verbindung zum Puffer Storage System.'
+        - ''
+        - ''
+      Entry_1201:
+        Text:
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): fallback storage is full!'
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): Puffer Speicher ist voll!'
+        - ''
+        - ''
+      Entry_1202:
+        Text:
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): no more fallback storage system resources available!'
+        - 'Host1 (@4%s@): @1%s@ (@2%s@ - @3%s@): keine Puffer Storage System Ressourcen mehr verfügbar!'
+        - ''
+        - ''
+      Entry_1203:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: Fallback write queue exceeded (first encountered in log @2%s@)! Data is lost!'
+        - 'Host1 (@3%s@): @1%s@: Schreibbuffer-Überlauf für Puffer Speicher (zuerst aufgetreten in log @2%s@)! Daten gehen verloren!'
+        - ''
+        - ''
+      Entry_1204:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Passive fallback storage system lost connection to active fallback storage system'
+        - 'Host1 (@2%s@): @1%s@: Das passive Puffer Storage System hat seine Verbindung zum aktiven Puffer Storage System verloren'
+        - ''
+        - ''
+      Entry_1205:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Fallback storage synchronizing with its redundant peer...'
+        - 'Host1 (@2%s@): @1%s@: Das Puffer Storage System wird mit seinem redundanten Partner abgeglichen...'
+        - ''
+        - ''
+      Entry_1206:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Fallback Failover failed!'
+        - 'Host1 (@2%s@): @1%s@: Puffer Failover Fehler!'
+        - ''
+        - ''
+      Entry_1207:
+        Text:
+        - 'Host1 (@3%s@): @1%s@ (@2%s@) lost connection to fallback storage system backend (Archive)'
+        - 'Host1 (@3%s@): @1%s@ (@2%s@) keine Verbindung zum Puffer Storage System Backend (Archiv)'
+        - ''
+        - ''
+      Entry_1208:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: Fallback Transaction Buffer and Write queue exceeded at passive side (first encountered in log @2%s@)! Potential data loss! Avoid manual failover as long as this alarm is active!'
+        - 'Host1 (@3%s@): @1%s@: Puffer Transaktionsbuffer- und Schreibbuffer-Überlauf auf passiver Seite (zuerst aufgetreten in log @2%s@)! Potentieller Datenverlust! Vermeiden Sie manuelle Redundanz-Umschaltung solange dieser Alarm aktiv ist!'
+        - ''
+        - ''
+      Entry_1209:
+        Text:
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) General Fallback Storage System error! See traces for specific information!'
+        - 'Host1 (@3%s@): @1%s@: (@2%s@) Allgemeiner Puffer Storage System Fehler! Bitte die Traces auf weiterführende Information prüfen!'
+        - ''
+        - ''
+      Entry_1210:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Fallback storage system synchronizing historical data between hosts!'
+        - 'Host1 (@2%s@): @1%s@: Puffer Storage System synchronisation zwischen den beiden redundanten Servern wird durchgeführt.'
+        - ''
+        - ''
+      Entry_1211:
+        Text:
+        - 'Host1 (@2%s@): @1%s@: Fallback storage Background synchronization failure! See traces for specific information!'
+        - 'Host1 (@2%s@): @1%s@: Puffer Storage Fehler während der Hintergrund-Synchronisation! Bitte die Traces auf weiterführende Information prüfen!'
+        - ''
+        - ''
+      Entry_1212:
+        Text:
+        - 'Host1 (@6%s@): @1%s@ (@2%s@ - @3%s@): Fallback Storage medium is unreachable!@5%t#4T@'
+        - 'Host1 (@6%s@): @1%s@ (@2%s@ - @3%s@): Puffer Speichermedium ist nicht erreichbar!@5%t#4T@'
+        - ''
+        - ''
+      Entry_1213:
+        Text:
+        - 'Host1 (@2%s@): Fallback Storage Application @1%s@ detected a newer database version, which cannot be handled by this runtime version. Please update the runtime version on this device or use another device with the same version as the database was taken from.'
+        - 'Host1 (@2%s@): Puffer Storage Applikation @1%s@ hat eine neuere Datenbankversion entdeckt, die von dieser Runtime-Version nicht bearbeitet werden kann. Bitte Runtime-Version auf diesem GerÃ¤t updaten oder ein Gerät mit derselben Version verwenden wie das, von dem die Datenbank stammt.'
+        - ''
+        - ''
+      Entry_1214:
+        Text:
+        - 'Host1 (@4%s@): @1%s@: Backup of a segment or consistency check on fallback log @2%s@ has failed! Check if the backup path is available and permissions are provided. Backup path: @3%s@'
+        - 'Host1 (@4%s@): @1%s@: Das Backup oder die Konsistenzprüfung eines Segments auf Puffer Log @2%s@ ist fehlgeschlagen! Prüfen Sie, ob der Backuppfad verfügbar ist und die Berechtigungen vorhanden sind. Backuppfad: @3%s@'
+        - ''
+        - ''
+      Entry_1215:
+        Text:
+        - 'Host1 (@4%s@): @1%s@: Fallback Storage (@3%s@) is corrupted, therefore cannot be opened! Path: @2%s@'
+        - 'Host1 (@4%s@): @1%s@: Puffer Storage (@3%s@) ist korrumpiert und kann daher nicht geöffnet werden! Pfad: @2%s@'
+        - ''
+        - ''
+      Entry_1300:
+        Text:
+        - 'Host2 (@3%s@): @1%s@ (@2%s@): lost connection to fallback storage system.'
+        - 'Host2 (@3%s@): @1%s@ (@2%s@): hat keine Verbindung zum Puffer Storage System.'
+        - ''
+        - ''
+      Entry_1301:
+        Text:
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): fallback storage is full!'
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): Puffer Speicher ist voll!'
+        - ''
+        - ''
+      Entry_1302:
+        Text:
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): no more fallback storage system resources available!'
+        - 'Host2 (@4%s@): @1%s@ (@2%s@ - @3%s@): keine Puffer Storage System Ressourcen mehr verfügbar!'
+        - ''
+        - ''
+      Entry_1303:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: Fallback write queue exceeded (first encountered in log @2%s@)! Data is lost!'
+        - 'Host2 (@3%s@): @1%s@: Schreibbuffer-Überlauf für Puffer Speicher (zuerst aufgetreten in log @2%s@)! Daten gehen verloren!'
+        - ''
+        - ''
+      Entry_1304:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Passive fallback storage system lost connection to active fallback storage system'
+        - 'Host2 (@2%s@): @1%s@: Das passive Puffer Storage System hat seine Verbindung zum aktiven Puffer Storage System verloren'
+        - ''
+        - ''
+      Entry_1305:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Fallback storage synchronizing with its redundant peer...'
+        - 'Host2 (@2%s@): @1%s@: Das Puffer Storage System wird mit seinem redundanten Partner abgeglichen...'
+        - ''
+        - ''
+      Entry_1306:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Fallback Failover failed!'
+        - 'Host2 (@2%s@): @1%s@: Puffer Failover Fehler!'
+        - ''
+        - ''
+      Entry_1307:
+        Text:
+        - 'Host2 (@3%s@): @1%s@ (@2%s@) lost connection to fallback storage system backend (Archive)'
+        - 'Host2 (@3%s@): @1%s@ (@2%s@) keine Verbindung zum Puffer Storage System Backend (Archiv)'
+        - ''
+        - ''
+      Entry_1308:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: Fallback Transaction Buffer and Write queue exceeded at passive side (first encountered in log @2%s@)! Potential data loss! Avoid manual failover as long as this alarm is active!'
+        - 'Host2 (@3%s@): @1%s@: Puffer Transaktionsbuffer- und Schreibbuffer-Überlauf auf passiver Seite (zuerst aufgetreten in log @2%s@)! Potentieller Datenverlust! Vermeiden Sie manuelle Redundanz-Umschaltung solange dieser Alarm aktiv ist!'
+        - ''
+        - ''
+      Entry_1309:
+        Text:
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) General Fallback Storage System error! See traces for specific information!'
+        - 'Host2 (@3%s@): @1%s@: (@2%s@) Allgemeiner Puffer Storage System Fehler! Bitte die Traces auf weiterführende Information prüfen!'
+        - ''
+        - ''
+      Entry_1310:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Fallback storage system synchronizing historical data between hosts!'
+        - 'Host2 (@2%s@): @1%s@: Puffer Storage System synchronisation zwischen den beiden redundanten Servern wird durchgeführt.'
+        - ''
+        - ''
+      Entry_1311:
+        Text:
+        - 'Host2 (@2%s@): @1%s@: Fallback storage Background synchronization failure! See traces for specific information!'
+        - 'Host2 (@2%s@): @1%s@: Puffer Storage Fehler während der Hintergrund-Synchronisation! Bitte die Traces auf weiterführende Information prüfen!'
+        - ''
+        - ''
+      Entry_1312:
+        Text:
+        - 'Host2 (@6%s@): @1%s@ (@2%s@ - @3%s@): Fallback Storage medium is unreachable!@5%t#4T@'
+        - 'Host2 (@6%s@): @1%s@ (@2%s@ - @3%s@): Puffer Speichermedium ist nicht erreichbar!@5%t#4T@'
+        - ''
+        - ''
+      Entry_1313:
+        Text:
+        - 'Host2 (@2%s@): Fallback Storage Application @1%s@ detected a newer database version, which cannot be handled by this runtime version. Please update the runtime version on this device or use another device with the same version as the database was taken from.'
+        - 'Host2 (@2%s@): Puffer Storage Applikation @1%s@ hat eine neuere Datenbankversion entdeckt, die von dieser Runtime-Version nicht bearbeitet werden kann. Bitte Runtime-Version auf diesem GerÃ¤t updaten oder ein Gerät mit derselben Version verwenden wie das, von dem die Datenbank stammt.'
+        - ''
+        - ''
+      Entry_1314:
+        Text:
+        - 'Host2 (@4%s@): @1%s@: Backup of a segment or consistency check on fallback log @2%s@ has failed! Check if the backup path is available and permissions are provided. Backup path: @3%s@'
+        - 'Host2 (@4%s@): @1%s@: Das Backup oder die Konsistenzprüfung eines Segments auf Puffer Log @2%s@ ist fehlgeschlagen! Prüfen Sie, ob der Backuppfad verfügbar ist und die Berechtigungen vorhanden sind. Backuppfad: @3%s@'
+        - ''
+        - ''
+      Entry_1315:
+        Text:
+        - 'Host2 (@4%s@): @1%s@: Fallback Storage (@3%s@) is corrupted, therefore cannot be opened! Path: @2%s@'
+        - 'Host2 (@4%s@): @1%s@: Puffer Storage (@3%s@) ist korrumpiert und kann daher nicht geöffnet werden! Pfad: @2%s@'
+        - ''
+        - ''
+  AlarmClassSymbolTextLibrary:
+    ESOrigin: PREDEFINED # DFP generated - DO NOT REMOVE
+    Type: Text
+    Languages:
+    - en-US
+    - de-DE
+    DefaultLanguage: en-US
+    Entries:
+      Entry_1:
+        Text:
+        - I
+        - I
+      Entry_2:
+        Text:
+        - I
+        - I
+      Entry_3:
+        Text:
+        - SystemDiagnosticInformation
+        - SystemDiagnosticInformation
+      Entry_4:
+        Text:
+        - F
+        - F
+      Entry_5:
+        Text:
+        - SystemDiagnosticAlarmWithoutClearEvent
+        - SystemDiagnosticAlarmWithoutClearEvent
+      Entry_6:
+        Text:
+        - S
+        - S
+      Entry_7:
+        Text:
+        - SystemDiagnosticWarningWithoutClearEvent
+        - SystemDiagnosticWarningWithoutClearEvent
+      Entry_8:
+        Text:
+        - SystemDiagnosticNotification
+        - SystemDiagnosticNotification
+      Entry_9:
+        Text:
+        - F
+        - F
+      Entry_10:
+        Text:
+        - SystemDiagnosticAlarm
+        - SystemDiagnosticAlarm
+      Entry_11:
+        Text:
+        - S
+        - S
+      Entry_12:
+        Text:
+        - SystemDiagnosticWarning
+        - SystemDiagnosticWarning
+      Entry_13:
+        Text:
+        - I
+        - I
+      Entry_14:
+        Text:
+        - I
+        - I
+      Entry_15:
+        Text:
+        - AlarmWithoutClearEvent
+        - AlarmWithoutClearEvent
+      Entry_16:
+        Text:
+        - AlarmWithOptionalAcknowledgement
+        - AlarmWithOptionalAcknowledgement
+      Entry_17:
+        Text:
+        - A
+        - A
+      Entry_18:
+        Text:
+        - W
+        - W
+      Entry_19:
+        Text:
+        - A
+        - A
+      Entry_20:
+        Text:
+        - I
+        - I
+      Entry_21:
+        Text:
+        - C
+        - C
+      Entry_22:
+        Text:
+        - W
+        - W
+      Entry_23:
+        Text:
+        - C
+        - C
+      Entry_24:
+        Text:
+        - M
+        - M
+      Entry_25:
+        Text:
+        - O
+        - O
+  SystemTextLibrary:
+    ESOrigin: PREDEFINED # DFP generated - DO NOT REMOVE
+    Type: Text
+    Languages:
+    - en-US
+    - de-DE
+    DefaultLanguage: en-US
+    Entries:
+      Entry_1:
+        Text:
+        - '##Invalid format specifier##'
+        - '##Ungültige Format-Spezifikation##'
+  ReportingAlarmTextLibrary:
+    ESOrigin: PREDEFINED # DFP generated - DO NOT REMOVE
+    Type: Text
+    Languages:
+    - en-US
+    - de-DE
+    - es-ES
+    - fr-FR
+    - it-IT
+    - zh-CN
+    DefaultLanguage: en-US
+    Entries:
+      Entry_002:
+        Text:
+        - Initialization of the Reporting Service has failed
+        - Initialisierung des Berichterstellungsdiensts ist fehlgeschlagen
+        - Error al inicializar el servicio de generación de informes.
+        - L'initialisation du service de génération de rapports a échoué.
+        - Inizializzazione del servizio di report non riuscita.
+        - 初始化报表服务失败
+      Entry_003:
+        Text:
+        - Cannot start Report Data Provider.
+        - Report Data Provider kann nicht gestartet werden.
+        - No se puede iniciar Report Data Provider.
+        - Impossible de démarrer Report Data Provider.
+        - Impossibile avviare Report Data Provider.
+        - 无法启动 Report Data Provider。
+      Entry_004:
+        Text:
+        - Cannot start report for job @1%v@.
+        - Der Bericht kann für den Auftrag @1%v@ nicht gestartet werden.
+        - El informe no se puede iniciar para la orden @1%v@.
+        - Impossible de démarrer le rapport pour la tâche @1%v@.
+        - Impossibile avviare il report per l'ordine @1%v@.
+        - 无法启动作业 @1%v@ 报表。
+      Entry_005:
+        Text:
+        - An error occurred during communication with the database server
+        - Bei der Kommunikation mit dem Datenbank-Server ist ein Fehler aufgetreten
+        - Se ha producido un error en la comunicación con el servidor de la base de datos
+        - Une erreur s'est produite lors de la communication avec le serveur de la base de données.
+        - Si è verificato un errore di comunicazione con il server della banca dati.
+        - 与数据库服务器通信期间出现错误
+      Entry_006:
+        Text:
+        - The report generation for job @1%v@ failed.
+        - Die Erstellung des Berichtsauftrags @1%v@ ist fehlgeschlagen.
+        - Error al crear la orden de informe @1%v@.
+        - La création de la tâche de rapport @1%v@ a échoué.
+        - La generazione del report task  @1%v@ non è riuscita.
+        - 作业 @1%v@ 生成报表失败。
+      Entry_007:
+        Text:
+        - 'Report failure: @1%v@'
+        - Bericht fehlgeschlagen @1%v@
+        - Error al generar informe @1%v@
+        - Le rapport a échoué @1%v@
+        - Report fallito @1%v@
+        - 报表失败：@1%v@
+  S7PlusAlarmTextLibrary:
+    ESOrigin: PREDEFINED # DFP generated - DO NOT REMOVE
+    Type: Text
+    Languages:
+    - invariant
+    - en-US
+    - de-DE
+    - fo
+    - fr-FR
+    - es-ES
+    - it-IT
+    - zh-CN
+    DefaultLanguage: invariant
+    Entries:
+      Entry_29:
+        Text:
+        - '@4%t#3T@'
+        - ''
+        - '@4%t#3T@'
+        - '@4%t#3T@'
+        - '@4%t#3T@'
+        - '@4%t#3T@'
+        - '@4%t#3T@'
+        - '@4%t#3T@'
+      Entry_30:
+        Text:
+        - '##Text missing##'
+        - ''
+        - '##Text missing##'
+        - '##Text missing##'
+        - '##Text missing##'
+        - '##Text missing##'
+        - '##Text missing##'
+        - '##Text missing##'
+      Entry_130:
+        Text:
+        - 'Computer1 (@5%s@): @3%t#2T@'
+        - ''
+        - 'Computer1 (@5%s@): @3%t#2T@'
+        - '!CR01BB7!_Host1 (@5%s@): @3%t#2T@'
+        - 'Ordinateur1 (@5%s@): @3%t#2T@'
+        - 'Equipo1 (@5%s@): @3%t#2T@'
+        - 'Computer1 (@5%s@): @3%t#2T@'
+        - '计算机 1 (@5%s@): @3%t#2T@'
+      Entry_146:
+        Text:
+        - 'Computer2 (@5%s@): @3%t#2T@'
+        - ''
+        - 'Computer2 (@5%s@): @3%t#2T@'
+        - '!CR01BB8!_Host2 (@5%s@): @3%t#2T@'
+        - 'Ordinateur2 (@5%s@): @3%t#2T@'
+        - 'Equipo2 (@5%s@): @3%t#2T@'
+        - 'Computer2 (@5%s@): @3%t#2T@'
+        - '计算机 2 (@5%s@): @3%t#2T@'
+      Entry_220:
+        Text:
+        - ''
+        - 'Connections: Connection to the PLC @5%s@ is lost'
+        - 'Verbindungen: Verbindung zur PLC @5%s@ getrennt'
+        - '!CR01BB9!_Connection lost on PLC side - @5%s@'
+        - "Connexions : Connexion à l'API @5%s@ coupée"
+        - 'Conexiones: conexión con el PLC @5%s@ interrumpida'
+        - 'Collegamenti: il collegamento al PLC @5%s@ è interrotto'
+        - 连接：与 PLC @5%s@ 的连接丢失
+      Entry_221:
+        Text:
+        - ''
+        - 'Connections: Connection to the HMI device @5%s@ is lost'
+        - 'Verbindungen: Verbindung zum HMI-Gerät @5%s@ getrennt'
+        - '!CR01BBA!_Connection lost on HMI side - @5%s@'
+        - "Connexions : Connexion à l'appareil IHM @5%s@ coupée"
+        - 'Conexiones: conexión con el dispositivo HMI @5%s@ interrumpida'
+        - 'Collegamenti: il collegamento al dispositivo HMI @5%s@ è interrotto'
+        - 连接：与 HMI 设备 @5%s@ 的连接丢失
+      Entry_222:
+        Text:
+        - ''
+        - 'Connections: Maximum number of connections exceeded - @5%s@'
+        - 'Verbindungen: Maximale Anzahl von verfügbaren Verbindungen ist überschritten - @5%s@'
+        - '!CR01BBB!_Maximum number of connections exceeded - @5%s@'
+        - Nombre maximal de liaisons dépassé - @5%s@
+        - 'Conexiones: se ha rebasado el número máximo de conexiones - @5%s@'
+        - "Collegamenti: E' stato superato il numero massimo di collegamenti - @5%s@"
+        - 连接：超出最大连接数 - @5%s@
+      Entry_223:
+        Text:
+        - ''
+        - Out of resources on PLC - @5%s@
+        - Nicht genügend Ressourcen auf der PLC verfügbar -  @5%s@
+        - '!CR01BBC!_Out of resources on PLC -  @5%s@'
+        - Ressources disponibles insuffisantes sur l'API - @5%s@
+        - No hay suficientes recursos disponibles en el PLC - @5%s@
+        - Risorse insufficienti sul PLC - @5%s@
+        - PLC 上的资源不足 - @5%s@
+      Entry_224:
+        Text:
+        - ''
+        - Legitimation failed, invalid or missing password - @5%s@
+        - Legitimierung fehlgeschlagen, falsches oder fehlendes Passwort - @5%s@
+        - '!CR01BBD!_Legitimation failed, invalid or missing password - @5%s@'
+        - Échec de légitimation, mot de passe erroné ou manquant - @5%s@
+        - Fallo de legitimación, falta contraseña o contraseña incorrecta - @5%s@
+        - Autenticazione non riuscita, password errata o mancante - @5%s@
+        - 合法化失败，密码无效或缺失 - @5%s@
+      Entry_225:
+        Text:
+        - ''
+        - Request to open the connection failed - @5%s@
+        - Verbindungsanfrage zum Öffnen der Verbindung fehlgeschlagen - @5%s@
+        - '!CR01BBE!_Open request failed - @5%s@'
+        - Échec de la demande de liaison pour l'ouverture de la liaison - @5%s@
+        - Error al solicitar la apertura de la conexión - @5%s@
+        - Richiesta di apertura collegamento non riuscita - @5%s@
+        - 打开连接请求失败 - @5%s@
+      Entry_226:
+        Text:
+        - ''
+        - 'Connections: Cannot connect to PLC - @5%s@'
+        - 'Verbindung: Verbindung zur PLC @5%s@ konnte nicht hergestellt werden'
+        - '!CR01BBF!_Cannot connect to PLC - @5%s@'
+        - "Connexions : Échec de l'ouverture de la liaison - @5%s@"
+        - 'Conexiones: Error al abrir la conexión - @5%s@'
+        - 'Collegamenti: impossibile creare il collegamento con @5%s@'
+        - 连接：无法连接到 PLC - @5%s@
+      Entry_227:
+        Text:
+        - ''
+        - Request to open the connection could not be sent
+        - Verbindungsanfrage zum Öffnen der Verbindung konnte nicht gesendet werden
+        - '!CR01BC0!_Open request could not be sent'
+        - Impossible d'envoyer la demande de liaison pour l'ouverture de la liaison
+        - No se ha podido enviar la solicitud de apertura de la conexión
+        - Impossibile inviare la richiesta per l'apertura del collegamento
+        - 无法发送打开连接请求
+      Entry_228:
+        Text:
+        - ''
+        - General certificate error for PLC - @5%s@
+        - Allgemeiner Zertifikatsfehler für PLC - @5%s@
+        - '!CR01BC1!_General certificate error for PLC - @5%s@'
+        - Erreur de certificat générale pour API - @5%s@
+        - Error general de certificado para PLC - @5%s@
+        - Errore generale nel certificato per il PLC - @5%s@
+        - PLC 的一般证书错误 - @5%s@
+      Entry_229:
+        Text:
+        - ''
+        - PLC certificate expired for PLC - @5%s@
+        - Das PLC-Zertifikat ist abgelaufen für - @5%s@
+        - '!CR01BC2!_PLC certificate expired for - @5%s@'
+        - Le certificat API a expiré pour - @5%s@
+        - El certificado de PLC ha caducado para - @5%s@
+        - Il certificato PLC è scaduto per - @5%s@
+        - PLC 的 PLC 证书过期 - @5%s@
+      Entry_230:
+        Text:
+        - ''
+        - PLC certificate is revoked for PLC - @5%s@
+        - Das PLC-Zertifikat ist gesperrt für - @5%s@
+        - '!CR01BC3!_PLC Certificate is revoked for - @5%s@'
+        - Le certificat API est verrouillé pour - @5%s@
+        - El certificado de PLC ha caducado para - @5%s@
+        - Il certificato PLC è bloccato per - @5%s@
+        - 为 PLC 取消 PLC证书 - @5%s@
+      Entry_231:
+        Text:
+        - ''
+        - PLC certificate is untrustworthy. Manual trust is possible for - @5%s@
+        - Das PLC-Zertifikat ist nicht vertrauenswürdig. Manuelles Vertrauen ist möglich für - @5%s@
+        - '!CR01BC4!_PLC Certificate is untrusted, manual trust is possible for - @5%s@'
+        - Le certificat API n'est pas de confiance. L'attribution manuelle de la confiance est possible pour - @5%s@
+        - El certificado de PLC no es de confianza. Es posible confiar manualmente para - @5%s@
+        - Il certificato PLC non è attendibile. L'attendibilità può essere impostata manualmente per - @5%s@
+        - PLC 证书不可信。可以手动信任 - @5%s@
+      Entry_232:
+        Text:
+        - ''
+        - PLC certificate is untrustworthy. Manual trust is not possible for - @5%s@
+        - Das PLC-Zertifikat ist nicht vertrauenswürdig. Manuelles Vertrauen ist nicht möglich für - @5%s@
+        - '!CR01BC5!_PLC Certificate is untrusted, manual trust is impossible for - @5%s@'
+        - Le certificat API n'est pas de confiance. L'attribution manuelle de la confiance n'est pas possible pour - @5%s@
+        - El certificado de PLC no es de confianza. No es posible confiar manualmente para - @5%s@
+        - Il certificato PLC non è attendibile. Non è possibile impostare manualmente l'attendibilità per - @5%s@
+        - PLC 证书不可信。无法手动信任 - @5%s@
+      Entry_240:
+        Text:
+        - ''
+        - PLC does not support Central alarm management
+        - Die PLC unterstützt nicht die Zentrale Meldungsverwaltung.
+        - '!CR01BC6!_Plc doesn’t support Central Alarm management.'
+        - L'API ne prend pas en charge le Gestion centralisée des messages.
+        - El PLC no es compatible con Administración central de avisos.
+        - Il PLC non supporta il Gestione centrale dei messaggi.
+        - PLC 不支持集中报警管理
+      Entry_250:
+        Text:
+        - ''
+        - Overload of PLC resources for monitoring HMITags. Maximum of PLC resources - @2%s@.
+        - Überlast der PLC-Ressourcen zum Beobachten von HMITags. Maximum von PLC-Ressourcen - @2%s@.
+        - '!CR01BC7!_Overload of Plc resources for monitoring HmiTags, maximum Plc resources - @2%s@.'
+        - Surcharge des ressources API pour la surveillance des HMITags. Maximum de ressources API - @2%s@.
+        - Sobrecarga de los recursos del PLC para visualizar HMITags. Máximo para recursos del PLC - @2%s@.
+        - Sovraccarico delle risorse del PLC per la supervisione delle HMITags. Risorse PLC max. - @2%s@.
+        - PLC 资源过载，无法监视 HMI 变量。PLC 资源最大数 - @2%s@.
+      Entry_251:
+        Text:
+        - ''
+        - 'Computer1 (@2%s@): Partner requires alarm time correction'
+        - 'Computer1 (@2%s@): Partner erfordert Korrektur des Meldezeitpunkts'
+        - '!CR01BC8!_Host1 (@2%s@): Partner requires AlarmTimeCorrection'
+        - "Ordinateur1 (@2%s@) : Le partenaire requiert la correction de l'heure de l'alarme"
+        - 'Equipo1 (@2%s@): el partner requiere corrección del momento de aviso'
+        - 'Computer1 (@2%s@): Il partner richiede la correzione del momento della segnalazione'
+        - '计算机 1 (@2%s@): 伙伴需要报警时间校正'
+      Entry_252:
+        Text:
+        - ''
+        - 'Computer2 (@2%s@): Partner requires alarm time correction'
+        - 'Computer2 (@2%s@): Partner erfordert Korrektur des Meldezeitpunkts'
+        - '!CR01BC9!_Host2 (@2%s@): Partner requires AlarmTimeCorrection'
+        - "Ordinateur2 (@2%s@) : Le partenaire requiert la correction de l'heure de l'alarme"
+        - 'Equipo2 (@2%s@): el partner requiere corrección del momento de aviso'
+        - 'Computer2 (@2%s@): Il partner richiede la correzione del momento della segnalazione'
+        - '计算机 2 (@2%s@): 伙伴需要报警时间校正'
+  ScriptingAlarmTextLibrary:
+    ESOrigin: PREDEFINED # DFP generated - DO NOT REMOVE
+    Type: Text
+    Languages:
+    - en-US
+    - de-DE
+    - fo
+    - fr-FR
+    - es-ES
+    - it-IT
+    - zh-CN
+    DefaultLanguage: en-US
+    Entries:
+      Entry_1:
+        Text:
+        - Script Debugger is enabled
+        - Skript-Debugger ist aktiviert
+        - '!CR01BCA!_Script Debugger is enabled'
+        - Débogueur de scripts est activé
+        - Depurador de scripts está activado
+        - Script Debugger è attivo
+        - 已启用脚本调试程序
+      Entry_2:
+        Text:
+        - '@10%s@'
+        - '@10%s@'
+        - '@10%s@'
+        - '@10%s@'
+        - '@10%s@'
+        - '@10%s@'
+        - '@10%s@'
+      Entry_3:
+        Text:
+        - '@9%t#10T@'
+        - '@9%t#10T@'
+        - '@9%t#10T@'
+        - '@9%t#10T@'
+        - '@9%t#10T@'
+        - '@9%t#10T@'
+        - '@9%t#10T@'
+  AllenBradleyEIPAlarmTextLibrary:
+    ESOrigin: PREDEFINED # DFP generated - DO NOT REMOVE
+    Type: Text
+    Languages:
+    - invariant
+    - de-DE
+    - en-US
+    - es-ES
+    - fr-FR
+    - it-IT
+    - zh-CN
+    DefaultLanguage: invariant
+    Entries:
+      Entry_29:
+        Text:
+        - '@4%t#3T@'
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_30:
+        Text:
+        - '##Text missing##'
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_220:
+        Text:
+        - ''
+        - Verbindung PLC-seitig verloren - @5%s@
+        - Connection lost on PLC side - @5%s@
+        - Conexión perdida por el lado del PLC - @5%s@
+        - Liaison perdue côté API - @5%s@
+        - Collegamento perduto sul lato PLC - @5%s@
+        - PLC 侧连接丢失 - @5%s@
+      Entry_221:
+        Text:
+        - ''
+        - Verbindung HMI-seitig verloren - @5%s@
+        - Connection lost on HMI side - @5%s@
+        - Conexión perdida por el lado de la HMI - @5%s@
+        - Liaison perdue côté IHM - @5%s@
+        - Collegamento perduto sul lato HMI - @5%s@
+        - HMI 侧连接丢失 - @5%s@
+      Entry_222:
+        Text:
+        - ''
+        - Maximale Anzahl von Verbindungen überschritten -  @5%s@
+        - Maximum number of connections exceeded - @5%s@
+        - Se ha rebasado el número máximo de conexiones - @5%s@
+        - Nombre maximal de liaisons dépassé -  @5%s@
+        - E' stato superato il numero massimo di collegamenti -  @5%s@
+        - 已超出最大连接数 - @5%s@
+      Entry_223:
+        Text:
+        - ''
+        - Nicht genügend Resourcen auf der PLC verfügbar - @5%s@
+        - Out of resources on PLC -  @5%s@
+        - No hay suficientes recursos disponibles en el PLC - @5%s@
+        - Ressources disponibles insuffisantes sur l'API - @5%s@
+        - Risorse insufficienti sul PLC - @5%s@
+        - PLC 上的资源不足 -  @5%s@
+      Entry_224:
+        Text:
+        - ''
+        - Legitimierung fehlgeschlagen, falsches oder fehlendes Passwort - @5%s@
+        - Legitimation failed, invalid or missing password - @5%s@
+        - Fallo de legitimación, falta contraseña o contraseña incorrecta - @5%s@
+        - Échec de légitimation, mot de passe erroné ou manquant - @5%s@
+        - Autenticazione non riuscita, password errata o mancante - @5%s@
+        - 合法化失败，密码无效或缺失 - @5%s@
+      Entry_225:
+        Text:
+        - ''
+        - Verbindungsanfrage zum Öffnen der Verbindung fehlgeschlagen - @5%s@
+        - Open request failed - @5%s@
+        - Error al solicitar la apertura de la conexión - @5%s@
+        - Échec de la demande de liaison pour l'ouverture de la liaison - @5%s@
+        - Richiesta di apertura collegamento non riuscita - @5%s@
+        - 打开请求失败 - @5%s@
+      Entry_226:
+        Text:
+        - ''
+        - Öffnen der Verbindung fehlgeschlagen - @5%s@
+        - Cannot connect to PLC - @5%s@
+        - Error al abrir la conexión - @5%s@
+        - Échec de l'ouverture de la liaison - @5%s@
+        - Apertura del collegamento non riuscita - @5%s@
+        - 无法连接到 PLC - @5%s@
+      Entry_227:
+        Text:
+        - ''
+        - Verbindungsanfrage zum Öffnen der Verbindung konnte nicht gesendet werden
+        - Open request could not be sent
+        - No se ha podido enviar la solicitud de apertura de la conexión
+        - Impossible d'envoyer la demande de liaison pour l'ouverture de la liaison
+        - Impossibile inviare la richiesta per l'apertura del collegamento
+        - 无法发送打开请求
+      Entry_228:
+        Text:
+        - ''
+        - 'Root Zertifikat ist abgelaufen für - @5%s@ '
+        - 'root certificate expired for - @5%s@ '
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_229:
+        Text:
+        - ''
+        - 'PLC Zertifikat ist ungülzig für - @5%s@ '
+        - 'PLC certificate untrusted for - @5%s@ '
+        - ''
+        - ''
+        - ''
+        - ''
+  OmronEIPAlarmTextLibrary:
+    ESOrigin: PREDEFINED # DFP generated - DO NOT REMOVE
+    Type: Text
+    Languages:
+    - invariant
+    - de-DE
+    - en-US
+    - es-ES
+    - fr-FR
+    - it-IT
+    - zh-CN
+    DefaultLanguage: invariant
+    Entries:
+      Entry_29:
+        Text:
+        - '@4%t#3T@'
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_30:
+        Text:
+        - '##Text missing##'
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_220:
+        Text:
+        - ''
+        - Verbindung PLC-seitig verloren - @5%s@
+        - Connection lost on PLC side - @5%s@
+        - Conexión perdida por el lado del PLC - @5%s@
+        - Liaison perdue côté API - @5%s@
+        - Collegamento perduto sul lato PLC - @5%s@
+        - PLC 侧连接丢失 - @5%s@
+      Entry_221:
+        Text:
+        - ''
+        - Verbindung HMI-seitig verloren - @5%s@
+        - Connection lost on HMI side - @5%s@
+        - Conexión perdida por el lado de la HMI - @5%s@
+        - Liaison perdue côté IHM - @5%s@
+        - Collegamento perduto sul lato HMI - @5%s@
+        - HMI 侧连接丢失 - @5%s@
+      Entry_222:
+        Text:
+        - ''
+        - Maximale Anzahl von Verbindungen überschritten -  @5%s@
+        - Maximum number of connections exceeded - @5%s@
+        - Se ha rebasado el número máximo de conexiones - @5%s@
+        - Nombre maximal de liaisons dépassé -  @5%s@
+        - E' stato superato il numero massimo di collegamenti -  @5%s@
+        - 已超出最大连接数 - @5%s@
+      Entry_223:
+        Text:
+        - ''
+        - Nicht genügend Resourcen auf der PLC verfügbar - @5%s@
+        - Out of resources on PLC -  @5%s@
+        - No hay suficientes recursos disponibles en el PLC - @5%s@
+        - Ressources disponibles insuffisantes sur l'API - @5%s@
+        - Risorse insufficienti sul PLC - @5%s@
+        - PLC 上的资源不足 -  @5%s@
+      Entry_224:
+        Text:
+        - ''
+        - Legitimierung fehlgeschlagen, falsches oder fehlendes Passwort - @5%s@
+        - Legitimation failed, invalid or missing password - @5%s@
+        - Fallo de legitimación, falta contraseña o contraseña incorrecta - @5%s@
+        - Échec de légitimation, mot de passe erroné ou manquant - @5%s@
+        - Autenticazione non riuscita, password errata o mancante - @5%s@
+        - 合法化失败，密码无效或缺失 - @5%s@
+      Entry_225:
+        Text:
+        - ''
+        - Verbindungsanfrage zum Öffnen der Verbindung fehlgeschlagen - @5%s@
+        - Open request failed - @5%s@
+        - Error al solicitar la apertura de la conexión - @5%s@
+        - Échec de la demande de liaison pour l'ouverture de la liaison - @5%s@
+        - Richiesta di apertura collegamento non riuscita - @5%s@
+        - 打开请求失败 - @5%s@
+      Entry_226:
+        Text:
+        - ''
+        - Öffnen der Verbindung fehlgeschlagen - @5%s@
+        - Cannot connect to PLC - @5%s@
+        - Error al abrir la conexión - @5%s@
+        - Échec de l'ouverture de la liaison - @5%s@
+        - Apertura del collegamento non riuscita - @5%s@
+        - 无法连接到 PLC - @5%s@
+      Entry_227:
+        Text:
+        - ''
+        - Verbindungsanfrage zum Öffnen der Verbindung konnte nicht gesendet werden
+        - Open request could not be sent
+        - No se ha podido enviar la solicitud de apertura de la conexión
+        - Impossible d'envoyer la demande de liaison pour l'ouverture de la liaison
+        - Impossibile inviare la richiesta per l'apertura del collegamento
+        - 无法发送打开请求
+      Entry_228:
+        Text:
+        - ''
+        - 'Root Zertifikat ist abgelaufen für - @5%s@ '
+        - 'root certificate expired for - @5%s@ '
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_229:
+        Text:
+        - ''
+        - 'PLC Zertifikat ist ungülzig für - @5%s@ '
+        - 'PLC certificate untrusted for - @5%s@ '
+        - ''
+        - ''
+        - ''
+        - ''
+  StdModbusTCPAlarmTextLibrary:
+    ESOrigin: PREDEFINED # DFP generated - DO NOT REMOVE
+    Type: Text
+    Languages:
+    - invariant
+    - en-US
+    - de-DE
+    - fo
+    - fr-FR
+    - es-ES
+    - it-IT
+    - zh-CN
+    DefaultLanguage: invariant
+    Entries:
+      Entry_29:
+        Text:
+        - '@4%t#3T@'
+        - ''
+        - '@4%t#3T@'
+        - '@4%t#3T@'
+        - '@4%t#3T@'
+        - '@4%t#3T@'
+        - '@4%t#3T@'
+        - '@4%t#3T@'
+      Entry_30:
+        Text:
+        - '##Text missing##'
+        - ''
+        - '##Text missing##'
+        - '##Text missing##'
+        - '##Text missing##'
+        - '##Text missing##'
+        - '##Text missing##'
+        - '##Text missing##'
+      Entry_130:
+        Text:
+        - 'Computer1 (@5%s@): Connections: Connection to the device is lost'
+        - ''
+        - 'Computer1 (@5%s@): @3%t#2T@'
+        - 'Host1 (@5%s@): @3%t#2T@'
+        - 'Ordinateur1 (@5%s@): @3%t#2T@'
+        - 'Equipo1 (@5%s@): @3%t#2T@'
+        - 'Computer1 (@5%s@): @3%t#2T@'
+        - '计算机 1 (@5%s@): @3%t#2T@'
+      Entry_146:
+        Text:
+        - 'Computer2 (@5%s@): Connections: Connection to the device is lost'
+        - ''
+        - 'Computer2 (@5%s@): @3%t#2T@'
+        - 'Host2 (@5%s@): @3%t#2T@'
+        - 'Ordinateur2 (@5%s@): @3%t#2T@'
+        - 'Equipo2 (@5%s@): @3%t#2T@'
+        - 'Computer2 (@5%s@): @3%t#2T@'
+        - '计算机 2 (@5%s@): @3%t#2T@'
+      Entry_220:
+        Text:
+        - ''
+        - 'Connections: Connection to the PLC @5%s@ is lost'
+        - 'Verbindungen: Verbindung zur PLC @5%s@ getrennt'
+        - Connection lost on PLC side - @5%s@
+        - "Connexions : Connexion à l'API @5%s@ coupée"
+        - 'Conexiones: conexión con el PLC @5%s@ interrumpida'
+        - 'Collegamenti: il collegamento al PLC @5%s@ è interrotto'
+        - 连接：与 PLC @5%s@ 的连接丢失
+      Entry_221:
+        Text:
+        - ''
+        - 'Connections: Connection to the HMI device @5%s@ is lost'
+        - 'Verbindungen: Verbindung zum HMI-Gerät @5%s@ getrennt'
+        - Connection lost on HMI side - @5%s@
+        - "Connexions : Connexion à l'appareil IHM @5%s@ coupée"
+        - 'Conexiones: conexión con el dispositivo HMI @5%s@ interrumpida'
+        - 'Collegamenti: il collegamento al dispositivo HMI @5%s@ è interrotto'
+        - 连接：与 HMI 设备 @5%s@ 的连接丢失
+      Entry_222:
+        Text:
+        - ''
+        - 'Connections: Maximum number of connections exceeded - @5%s@'
+        - 'Verbindungen: Maximale Anzahl von verfügbaren Verbindungen ist überschritten - @5%s@'
+        - Maximum number of connections exceeded - @5%s@
+        - Nombre maximal de liaisons dépassé - @5%s@
+        - 'Conexiones: se ha rebasado el número máximo de conexiones - @5%s@'
+        - "Collegamenti: E' stato superato il numero massimo di collegamenti - @5%s@"
+        - 连接：超出最大连接数 - @5%s@
+      Entry_223:
+        Text:
+        - ''
+        - Out of resources on PLC - @5%s@
+        - Nicht genügend Ressourcen auf der PLC verfügbar -  @5%s@
+        - Out of resources on PLC -  @5%s@
+        - Ressources disponibles insuffisantes sur l'API - @5%s@
+        - No hay suficientes recursos disponibles en el PLC - @5%s@
+        - Risorse insufficienti sul PLC - @5%s@
+        - PLC 上的资源不足 - @5%s@
+      Entry_224:
+        Text:
+        - ''
+        - Legitimation failed, invalid or missing password - @5%s@
+        - Legitimierung fehlgeschlagen, falsches oder fehlendes Passwort - @5%s@
+        - Legitimation failed, invalid or missing password - @5%s@
+        - Échec de légitimation, mot de passe erroné ou manquant - @5%s@
+        - Fallo de legitimación, falta contraseña o contraseña incorrecta - @5%s@
+        - Autenticazione non riuscita, password errata o mancante - @5%s@
+        - 合法化失败，密码无效或缺失 - @5%s@
+      Entry_225:
+        Text:
+        - ''
+        - Request to open the connection failed - @5%s@
+        - Verbindungsanfrage zum Öffnen der Verbindung fehlgeschlagen - @5%s@
+        - Open request failed - @5%s@
+        - Échec de la demande de liaison pour l'ouverture de la liaison - @5%s@
+        - Error al solicitar la apertura de la conexión - @5%s@
+        - Richiesta di apertura collegamento non riuscita - @5%s@
+        - 打开连接请求失败 - @5%s@
+      Entry_226:
+        Text:
+        - ''
+        - 'Connections: Cannot connect to PLC - @5%s@'
+        - 'Verbindung: Verbindung zur PLC @5%s@ konnte nicht hergestellt werden'
+        - Cannot connect to PLC - @5%s@
+        - "Connexions : Échec de l'ouverture de la liaison - @5%s@"
+        - 'Conexiones: Error al abrir la conexión - @5%s@'
+        - 'Collegamenti: impossibile creare il collegamento con @5%s@'
+        - 连接：无法连接到 PLC - @5%s@
+      Entry_227:
+        Text:
+        - ''
+        - Request to open the connection could not be sent
+        - Verbindungsanfrage zum Öffnen der Verbindung konnte nicht gesendet werden
+        - Open request could not be sent
+        - Impossible d'envoyer la demande de liaison pour l'ouverture de la liaison
+        - No se ha podido enviar la solicitud de apertura de la conexión
+        - Impossibile inviare la richiesta per l'apertura del collegamento
+        - 无法发送打开连接请求
+      Entry_228:
+        Text:
+        - ''
+        - General certificate error for PLC - @5%s@
+        - Allgemeiner Zertifikatsfehler für PLC - @5%s@
+        - General certificate error for PLC - @5%s@
+        - Erreur de certificat générale pour API - @5%s@
+        - Error general de certificado para PLC - @5%s@
+        - Errore generale nel certificato per il PLC - @5%s@
+        - PLC 的一般证书错误 - @5%s@
+      Entry_229:
+        Text:
+        - ''
+        - PLC certificate expired for PLC - @5%s@
+        - Das PLC-Zertifikat ist abgelaufen für - @5%s@
+        - PLC certificate expired for - @5%s@
+        - Le certificat API a expiré pour - @5%s@
+        - El certificado de PLC ha caducado para - @5%s@
+        - Il certificato PLC è scaduto per - @5%s@
+        - PLC 的 PLC 证书过期 - @5%s@
+      Entry_230:
+        Text:
+        - ''
+        - PLC certificate is revoked for PLC - @5%s@
+        - Das PLC-Zertifikat ist gesperrt für - @5%s@
+        - PLC Certificate is revoked for - @5%s@
+        - Le certificat API est verrouillé pour - @5%s@
+        - El certificado de PLC ha caducado para - @5%s@
+        - Il certificato PLC è bloccato per - @5%s@
+        - 为 PLC 取消 PLC证书 - @5%s@
+      Entry_231:
+        Text:
+        - ''
+        - PLC certificate is untrustworthy. Manual trust is possible for - @5%s@
+        - Das PLC-Zertifikat ist nicht vertrauenswürdig. Manuelles Vertrauen ist möglich für - @5%s@
+        - PLC Certificate is untrusted, manual trust is possible for - @5%s@
+        - Le certificat API n'est pas de confiance. L'attribution manuelle de la confiance est possible pour - @5%s@
+        - El certificado de PLC no es de confianza. Es posible confiar manualmente para - @5%s@
+        - Il certificato PLC non è attendibile. L'attendibilità può essere impostata manualmente per - @5%s@
+        - PLC 证书不可信。可以手动信任 - @5%s@
+      Entry_232:
+        Text:
+        - ''
+        - PLC certificate is untrustworthy. Manual trust is not possible for - @5%s@
+        - Das PLC-Zertifikat ist nicht vertrauenswürdig. Manuelles Vertrauen ist nicht möglich für - @5%s@
+        - PLC Certificate is untrusted, manual trust is impossible for - @5%s@
+        - Le certificat API n'est pas de confiance. L'attribution manuelle de la confiance n'est pas possible pour - @5%s@
+        - El certificado de PLC no es de confianza. No es posible confiar manualmente para - @5%s@
+        - Il certificato PLC non è attendibile. Non è possibile impostare manualmente l'attendibilità per - @5%s@
+        - PLC 证书不可信。无法手动信任 - @5%s@
+      Entry_240:
+        Text:
+        - ''
+        - PLC does not support Central alarm management
+        - Die PLC unterstützt nicht die Zentrale Meldungsverwaltung.
+        - Plc doesn’t support Central Alarm management.
+        - L'API ne prend pas en charge le Gestion centralisée des messages.
+        - El PLC no es compatible con Administración central de avisos.
+        - Il PLC non supporta il Gestione centrale dei messaggi.
+        - PLC 不支持集中报警管理
+      Entry_250:
+        Text:
+        - ''
+        - Overload of PLC resources for monitoring HMITags. Maximum of PLC resources - @2%s@.
+        - Überlast der PLC-Ressourcen zum Beobachten von HMITags. Maximum von PLC-Ressourcen - @2%s@.
+        - Overload of Plc resources for monitoring HmiTags, maximum Plc resources - @2%s@.
+        - Surcharge des ressources API pour la surveillance des HMITags. Maximum de ressources API - @2%s@.
+        - Sobrecarga de los recursos del PLC para visualizar HMITags. Máximo para recursos del PLC - @2%s@.
+        - Sovraccarico delle risorse del PLC per la supervisione delle HMITags. Risorse PLC max. - @2%s@.
+        - PLC 资源过载，无法监视 HMI 变量。PLC 资源最大数 - @2%s@.
+  MitsubishiMCAlarmTextLibrary:
+    ESOrigin: PREDEFINED # DFP generated - DO NOT REMOVE
+    Type: Text
+    Languages:
+    - invariant
+    - de-DE
+    - en-US
+    - es-ES
+    - fr-FR
+    - it-IT
+    - zh-CN
+    DefaultLanguage: invariant
+    Entries:
+      Entry_29:
+        Text:
+        - '@4%t#3T@'
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_30:
+        Text:
+        - '##Text missing##'
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_220:
+        Text:
+        - ''
+        - Verbindung PLC-seitig verloren - @5%s@
+        - Connection lost on PLC side - @5%s@
+        - Conexión perdida por el lado del PLC - @5%s@
+        - Liaison perdue côté API - @5%s@
+        - Collegamento perduto sul lato PLC - @5%s@
+        - PLC 侧连接丢失 - @5%s@
+      Entry_221:
+        Text:
+        - ''
+        - Verbindung HMI-seitig verloren - @5%s@
+        - Connection lost on HMI side - @5%s@
+        - Conexión perdida por el lado de la HMI - @5%s@
+        - Liaison perdue côté IHM - @5%s@
+        - Collegamento perduto sul lato HMI - @5%s@
+        - HMI 侧连接丢失 - @5%s@
+      Entry_222:
+        Text:
+        - ''
+        - Maximale Anzahl von Verbindungen überschritten -  @5%s@
+        - Maximum number of connections exceeded - @5%s@
+        - Se ha rebasado el número máximo de conexiones - @5%s@
+        - Nombre maximal de liaisons dépassé -  @5%s@
+        - E' stato superato il numero massimo di collegamenti -  @5%s@
+        - 已超出最大连接数 - @5%s@
+      Entry_223:
+        Text:
+        - ''
+        - Nicht genügend Resourcen auf der PLC verfügbar - @5%s@
+        - Out of resources on PLC -  @5%s@
+        - No hay suficientes recursos disponibles en el PLC - @5%s@
+        - Ressources disponibles insuffisantes sur l'API - @5%s@
+        - Risorse insufficienti sul PLC - @5%s@
+        - PLC 上的资源不足 -  @5%s@
+      Entry_224:
+        Text:
+        - ''
+        - Legitimierung fehlgeschlagen, falsches oder fehlendes Passwort - @5%s@
+        - Legitimation failed, invalid or missing password - @5%s@
+        - Fallo de legitimación, falta contraseña o contraseña incorrecta - @5%s@
+        - Échec de légitimation, mot de passe erroné ou manquant - @5%s@
+        - Autenticazione non riuscita, password errata o mancante - @5%s@
+        - 合法化失败，密码无效或缺失 - @5%s@
+      Entry_225:
+        Text:
+        - ''
+        - Verbindungsanfrage zum Öffnen der Verbindung fehlgeschlagen - @5%s@
+        - Open request failed - @5%s@
+        - Error al solicitar la apertura de la conexión - @5%s@
+        - Échec de la demande de liaison pour l'ouverture de la liaison - @5%s@
+        - Richiesta di apertura collegamento non riuscita - @5%s@
+        - 打开请求失败 - @5%s@
+      Entry_226:
+        Text:
+        - ''
+        - Öffnen der Verbindung fehlgeschlagen - @5%s@
+        - Cannot connect to PLC - @5%s@
+        - Error al abrir la conexión - @5%s@
+        - Échec de l'ouverture de la liaison - @5%s@
+        - Apertura del collegamento non riuscita - @5%s@
+        - 无法连接到 PLC - @5%s@
+      Entry_227:
+        Text:
+        - ''
+        - Verbindungsanfrage zum Öffnen der Verbindung konnte nicht gesendet werden
+        - Open request could not be sent
+        - No se ha podido enviar la solicitud de apertura de la conexión
+        - Impossible d'envoyer la demande de liaison pour l'ouverture de la liaison
+        - Impossibile inviare la richiesta per l'apertura del collegamento
+        - 无法发送打开请求
+      Entry_228:
+        Text:
+        - ''
+        - 'Root Zertifikat ist abgelaufen für - @5%s@ '
+        - 'root certificate expired for - @5%s@ '
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_229:
+        Text:
+        - ''
+        - 'PLC Zertifikat ist ungülzig für - @5%s@ '
+        - 'PLC certificate untrusted for - @5%s@ '
+        - ''
+        - ''
+        - ''
+        - ''
+  MitsubishiiQAlarmTextLibrary:
+    ESOrigin: PREDEFINED # DFP generated - DO NOT REMOVE
+    Type: Text
+    Languages:
+    - invariant
+    - de-DE
+    - en-US
+    - es-ES
+    - fr-FR
+    - it-IT
+    - zh-CN
+    DefaultLanguage: invariant
+    Entries:
+      Entry_29:
+        Text:
+        - '@4%t#3T@'
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_30:
+        Text:
+        - '##Text missing##'
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_220:
+        Text:
+        - ''
+        - Verbindung PLC-seitig verloren - @5%s@
+        - Connection lost on PLC side - @5%s@
+        - Conexión perdida por el lado del PLC - @5%s@
+        - Liaison perdue côté API - @5%s@
+        - Collegamento perduto sul lato PLC - @5%s@
+        - PLC 侧连接丢失 - @5%s@
+      Entry_221:
+        Text:
+        - ''
+        - Verbindung HMI-seitig verloren - @5%s@
+        - Connection lost on HMI side - @5%s@
+        - Conexión perdida por el lado de la HMI - @5%s@
+        - Liaison perdue côté IHM - @5%s@
+        - Collegamento perduto sul lato HMI - @5%s@
+        - HMI 侧连接丢失 - @5%s@
+      Entry_222:
+        Text:
+        - ''
+        - Maximale Anzahl von Verbindungen überschritten -  @5%s@
+        - Maximum number of connections exceeded - @5%s@
+        - Se ha rebasado el número máximo de conexiones - @5%s@
+        - Nombre maximal de liaisons dépassé -  @5%s@
+        - E' stato superato il numero massimo di collegamenti -  @5%s@
+        - 已超出最大连接数 - @5%s@
+      Entry_223:
+        Text:
+        - ''
+        - Nicht genügend Resourcen auf der PLC verfügbar - @5%s@
+        - Out of resources on PLC -  @5%s@
+        - No hay suficientes recursos disponibles en el PLC - @5%s@
+        - Ressources disponibles insuffisantes sur l'API - @5%s@
+        - Risorse insufficienti sul PLC - @5%s@
+        - PLC 上的资源不足 -  @5%s@
+      Entry_224:
+        Text:
+        - ''
+        - Legitimierung fehlgeschlagen, falsches oder fehlendes Passwort - @5%s@
+        - Legitimation failed, invalid or missing password - @5%s@
+        - Fallo de legitimación, falta contraseña o contraseña incorrecta - @5%s@
+        - Échec de légitimation, mot de passe erroné ou manquant - @5%s@
+        - Autenticazione non riuscita, password errata o mancante - @5%s@
+        - 合法化失败，密码无效或缺失 - @5%s@
+      Entry_225:
+        Text:
+        - ''
+        - Verbindungsanfrage zum Öffnen der Verbindung fehlgeschlagen - @5%s@
+        - Open request failed - @5%s@
+        - Error al solicitar la apertura de la conexión - @5%s@
+        - Échec de la demande de liaison pour l'ouverture de la liaison - @5%s@
+        - Richiesta di apertura collegamento non riuscita - @5%s@
+        - 打开请求失败 - @5%s@
+      Entry_226:
+        Text:
+        - ''
+        - Öffnen der Verbindung fehlgeschlagen - @5%s@
+        - Cannot connect to PLC - @5%s@
+        - Error al abrir la conexión - @5%s@
+        - Échec de l'ouverture de la liaison - @5%s@
+        - Apertura del collegamento non riuscita - @5%s@
+        - 无法连接到 PLC - @5%s@
+      Entry_227:
+        Text:
+        - ''
+        - Verbindungsanfrage zum Öffnen der Verbindung konnte nicht gesendet werden
+        - Open request could not be sent
+        - No se ha podido enviar la solicitud de apertura de la conexión
+        - Impossible d'envoyer la demande de liaison pour l'ouverture de la liaison
+        - Impossibile inviare la richiesta per l'apertura del collegamento
+        - 无法发送打开请求
+      Entry_228:
+        Text:
+        - ''
+        - 'Root Zertifikat ist abgelaufen für - @5%s@ '
+        - 'root certificate expired for - @5%s@ '
+        - ''
+        - ''
+        - ''
+        - ''
+      Entry_229:
+        Text:
+        - ''
+        - 'PLC Zertifikat ist ungülzig für - @5%s@ '
+        - 'PLC certificate untrusted for - @5%s@ '
+        - ''
+        - ''
+        - ''
+        - ''
+  VCSAlarmTextLibrary:
+    ESOrigin: PREDEFINED # DFP generated - DO NOT REMOVE
+    Type: Text
+    Languages:
+    - invariant
+    - de-DE
+    - en-US
+    DefaultLanguage: invariant
+    Entries:
+      Entry_37:
+        Text:
+        - UI 1 connection not established
+        - UI 1 Verbindung nicht hergestellt
+        - UI 1 connection not established

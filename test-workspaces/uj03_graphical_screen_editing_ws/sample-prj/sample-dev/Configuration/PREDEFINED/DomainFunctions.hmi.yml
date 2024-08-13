@@ -1,0 +1,127 @@
+#Version: 2.0
+
+DomainFunctions:
+  RuntimeSystem:
+    Active: True # PREDEFINED - please do NOT change/delete
+    ManagerNumber: 0
+    Mandatory: True # PREDEFINED - please do NOT change/delete
+  AlarmService:
+    Active: True # PREDEFINED - please do NOT change/delete
+    ManagerNumber: 0
+    Mandatory: True # PREDEFINED - please do NOT change/delete
+  UserInterfaceScripting:
+    Active: True # PREDEFINED - please do NOT change/delete
+    ManagerNumber: 0
+    Mandatory: True # PREDEFINED - please do NOT change/delete
+    ComponentPath: Scripting
+    DBPRCV: 0.0.0.0
+  S7Communication:
+    Active: False
+    ManagerNumber: 1
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  OpcUaCommunication:
+    Active: False
+    ManagerNumber: 3
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  GlobalIDManagement:
+    Active: False
+    ManagerNumber: 0
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  AlarmLogging:
+    Active: False
+    ManagerNumber: 222
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  TagLogging:
+    Active: False
+    ManagerNumber: 111
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  Audit:
+    Active: False
+    ManagerNumber: 166
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  TagService:
+    Active: False
+    ManagerNumber: 160
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  Distribution:
+    Active: False
+    ManagerNumber: 0
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  Redundancy:
+    Active: False
+    ManagerNumber: 0
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  SecureCommunication:
+    Active: False
+    ManagerNumber: 0
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  StorageDeviceMonitoring:
+    Active: False
+    ManagerNumber: 0
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  KPIMonitoringAll:
+    Active: False
+    ManagerNumber: 0
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  ContextLogging:
+    Active: False
+    ManagerNumber: 127
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  S7PlusCommunication:
+    Active: False
+    ManagerNumber: 2
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+    ComponentPath: S7Plus
+    DBPRCV: 0.0.0.0
+  StdModbusTCPCommunication:
+    Active: False
+    ManagerNumber: 4
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+    ComponentPath: CSP/StdModbusTCP
+    DBPRCV: 0.0.0.0
+  AllenBradleyEIPCommunication:
+    Active: False
+    ManagerNumber: 5
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+    ComponentPath: CSP/AllenBradleyEIP
+    DBPRCV: 0.0.0.0
+  OmronEIPCommunication:
+    Active: False
+    ManagerNumber: 8
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+    ComponentPath: CSP/OmronEip
+    DBPRCV: 0.0.0.0
+  MitsubishiMCCommunication:
+    Active: False
+    ManagerNumber: 7
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+    ComponentPath: CSP/MitsubishiMC
+    DBPRCV: 0.0.0.0
+  MitsubishiiQCommunication:
+    Active: False
+    ManagerNumber: 6
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+    ComponentPath: CSP/MitsubishiiQ
+    DBPRCV: 0.0.0.0
+  Reporting:
+    Active: False
+    ManagerNumber: 0
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+    ComponentPath: REP
+    DBPRCV: 0.0.0.0
+  Scheduler:
+    Active: False
+    ManagerNumber: 0
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+  RTS:
+    Active: True
+    ManagerNumber: 22
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+    ComponentPath: VCS
+    DBPRCV: 0.0.0.0
+  UDH:
+    Active: False
+    ManagerNumber: 0
+    Mandatory: False # PREDEFINED - please do NOT change/delete
+    ComponentPath: UDH
+    DBPRCV: 1.0.0.0

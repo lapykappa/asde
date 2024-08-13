@@ -1,0 +1,19 @@
+#Version: 2.0
+
+StructureTags:
+  '@UserInterfaceScriptingState':
+    ESOrigin: UserInterfaceScripting
+    StructureType: '@ScriptingState'
+    .DebuggerEnabled:
+      DataType: DTBool
+      Alarms:
+        ScriptDebuggerEnabledNotification:
+          ObjectType: HmiBinaryAlarm
+          AlarmClass: SystemNotification
+          SourceType: TAG
+          SystemSeverity: 0
+          ID: UserInterfaceScriptingDebuggerEnabledAlarm
+          EventText: ScriptingAlarmTextLibrary.Entry_1
+          ConditionPattern: 1
+          Area: System/HMI/UserInterface/Scripting
+          Origin: '@S1%s@'

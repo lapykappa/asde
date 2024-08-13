@@ -1,0 +1,24 @@
+#Version: 2.0
+
+Internals:
+  Conn_event_0_1_to_api_22_1:
+    ESOrigin: RTS
+    StructureType: ManagerConnections
+    .ManagerName:
+      DataType: DTString
+      InitialValue: VisualCoreService
+    .ManagerConnected:
+      DataType: DTBool
+      Alarms:
+        ClientDisconnectedAlarm:
+          ObjectType: HmiBinaryAlarm
+          AlarmClass: SystemAlarm
+          SourceType: TAG
+          SystemSeverity: 129
+          EventText: AlarmTextLibrary.Entry_22
+          AlarmParameterTags:
+          - Conn_event_0_1_to_api_22_1.ManagerName#Value
+          - '@ServerMachineName_1#Value'
+          ConditionPattern: 0
+          Area: System/HMI/RuntimeSystem
+          ID: VisualCoreSystemManagerDisconnectedAlarm

@@ -1,0 +1,6 @@
+name: "uj03_graphical_screen_editing_ws"
+version: 0.0.0
+type: generic
+dependencies:
+  "@ue/code.elements": ^0.19.1-20240712-133625-ca42552
+  "@ue/open.elements": ^0.13.0-pilot

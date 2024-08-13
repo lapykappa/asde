@@ -1,0 +1,29 @@
+Project:
+  Name: sample-prj
+  UUID: 52e201bb-1e9a-427a-947a-582f8ca3704c
+  Comment: ""
+  CreationTime: 2024-07-31T11:38:56.2820000Z
+  LastOpened: 2024-08-01T14:04:04.2360000Z
+  Author: ""
+  Devices:
+    sample-dev:
+      UUID: 7d7db4be-a2aa-45e3-98c4-576967e72e6a
+      Comment: ""
+      Configuration:
+        SystemID: 1
+        SystemName: RUNTIME_1
+        ProductVersion: 18.0.0.2
+        ProductType: 4
+        Autostart: false
+      Target:
+        Hostname: ""
+        Password: ""
+        LastDownloadBuildNumber: 0
+        LastDownloadBuildDate: 2024-08-01T16:04:01.7515247Z
+        LastDownloadLabel: DL_efc760a7-2e2e-4037-889f-f85a52ff05e8
+      Target_Redu:
+        Hostname: ""
+        Password: ""
+        LastDownloadBuildNumber: 0
+        LastDownloadBuildDate: ""
+        LastDownloadLabel: ""

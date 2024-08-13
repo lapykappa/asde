@@ -1,0 +1,22 @@
+TextLibraries:
+  MyTextLibrary:
+    Type: Text
+    Languages:
+      - en-US
+    DefaultLanguage: en-US
+    Entries:
+      Text:
+        Text:
+          - Text 
+      TestTarget:
+        Text:
+          - Test Target
+      HmiLabel_653:
+        Text:
+          - Hmi Label 653
+      HmiButton_713:
+        Text:
+          - Hmi Button 713
+      HmiButton_833:
+        Text:
+          - Hmi Button 833

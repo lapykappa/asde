@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schemas.specsolutions.eu/specsync4azuredevops-config-latest.json",
+    "compatibilityVersion": "3.4",
+    "synchronization": {
+      "links": [
+        {
+          "tagPrefix": "feature"
+        },
+        {
+          "tagPrefix": "bug"
+        }
+      ],
+      "automation": {
+        "enabled": true
+      },
+    
+      "areaPath": {
+      "mode": "setOnLink",
+      "value": "UnifiedElements\\_Teams\\Monoceros"
+      },
+   
+      "iterationPath": {
+          "mode": "setOnLink",
+          "value": "UnifiedElements\\2_weeks"
+          }
+    }
+  }

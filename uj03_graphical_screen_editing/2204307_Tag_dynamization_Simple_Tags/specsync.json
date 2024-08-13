@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schemas.specsolutions.eu/specsync4azuredevops-config-latest.json",
+    "compatibilityVersion": "3.4",
+    "remote": {
+      "projectUrl": "https://jupiter.tfs.siemens.net/tfs/TIA/UnifiedElements",
+      "testSuite": {
+        "testPlan": "#2838932",
+        "id": 2839164
+      }
+    },
+    "local": {
+      "projectType": "folder",
+      "folder": "."
+    },
+    "toolSettings": {
+      "parentConfig": "../specsync.json"
+    }
+  }

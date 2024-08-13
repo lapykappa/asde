@@ -1,0 +1,46 @@
+{
+  "name": "@uj/03-graphical-screen-editing",
+  "author": "Siemens AG",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://code.siemens.com/ue/tests/user-journey-tests.git"
+  },
+  "version": "0.9.6",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.34.0",
+    "@wdio/cli": "^8.35.1",
+    "@wdio/cucumber-framework": "^8.35.0",
+    "@wdio/junit-reporter": "^8.32.4",
+    "@wdio/local-runner": "^8.35.1",
+    "@wdio/spec-reporter": "^8.32.4",
+    "@wdio/visual-service": "^5.2.0",
+    "allure-commandline": "^2.28.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "wdio-cucumberjs-json-reporter": "^5.2.1",
+    "wdio-image-comparison-service": "^5.0.3",
+    "wdio-vscode-service": "^6.0.3"
+  },
+  "scripts": {
+    "wdio": "wdio run ./uj03_graphical_screen_editing-wdio.conf.ts",
+    "start": "wdio run ./uj03_graphical_screen_editing-wdio.conf.ts"
+  },
+  "dependencies": {
+    "@wdio/visual-service": "^5.1.1",
+    "hasbin": "^1.2.3",
+    "js-yaml": "^4.1.0",
+    "yaml": "^2.4.1"
+  },
+  "files": [
+    "specsync.json",
+    "tsconfig.json",
+    "/.config",
+    "/00_common",
+    "00_common_conf.ts",
+    "/uj03_graphical_screen_editing",
+    "/test-workspaces/uj03_graphical_screen_editing_ws",
+    "/uj03_graphical_screen_editing-wdio.conf.ts"
+  ]
+}

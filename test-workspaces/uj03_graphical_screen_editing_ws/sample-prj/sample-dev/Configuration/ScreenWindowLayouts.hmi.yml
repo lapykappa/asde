@@ -1,0 +1,11 @@
+#Version: 2.0
+
+ScreenWindowLayouts:
+  MyScreenWindowLayout:
+    ObjectType: Layout
+    Members:
+     MyTopLevelScreenWindow:
+      ObjectType: TopLevelScreenWindow
+      Height: 1080
+      Width: 1920
+      Screen: MyScreen

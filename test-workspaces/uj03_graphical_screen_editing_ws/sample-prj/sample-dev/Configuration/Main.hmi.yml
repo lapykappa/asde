@@ -1,0 +1,38 @@
+#Version: 2.0
+
+Runtime:
+  sample-dev:
+    Product: HmiScada
+    RuntimeSystemVersion: 0x12000002
+    EngineeringProjectID: 7d7db4be-a2aa-45e3-98c4-576967e72e6a
+    EngineeringProjectName: sample-prj
+    EngineeringDeviceName: sample-dev
+    RuntimeConfigurationDataVersion: 0x04020000
+    Acl: 1
+    DatabaseSchemaVersion: 0x05010100
+    FirmwareVersion: 0
+    FirmwareCompatibilityVersion: 0
+    SystemID: 1
+    DefaultLanguage: en-US
+    Languages:
+    - en-US
+    InitialLoggingLanguages:
+    - en-US
+    DefinitionFiles:
+    - PREDEFINED/RuntimeSystem/CoreArtifacts_001.hmi.yml
+    Files:
+    - PREDEFINED/DomainFunctions.hmi.yml
+    - PREDEFINED/HmiCycle_001.hmi.yml
+    - PREDEFINED/IowaInternalDP_001.hmi.yml
+    - PREDEFINED/HmiAlarmClass_001.hmi.yml
+    - PREDEFINED/HmiTextLibrary_001.hmi.yml
+    - PREDEFINED/HmiTextListContainer_001.hmi.yml
+    - PREDEFINED/HmiColorLibrary_001.hmi.yml
+    - PREDEFINED/RuntimeSystem/IowaInternalDP_001.hmi.yml
+    - PREDEFINED/UserInterfaceScripting/HmiStructureTag_001.hmi.yml
+    - PREDEFINED/RTS/IowaInternalDP_001.hmi.yml
+    - MyScreen.screen.hmi.yml
+    - MyTextLibrary.hmi.yml
+    - ScreenWindowLayouts.hmi.yml
+    - Tags.hmi.yml
+    SymbolFiles: []

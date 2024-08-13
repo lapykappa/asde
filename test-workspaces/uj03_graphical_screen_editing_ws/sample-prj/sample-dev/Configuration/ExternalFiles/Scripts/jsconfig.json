@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "module": "ES2022",
+    "target": "ES2022",
+    "types": [
+      "../../../.apax/packages/@ue/scripting-types-rt-04-00-01/HMIRuntime.d.ts"
+    ]
+  },
+  "include": ["./**/*.js"]
+}
